@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.23)  24 MAR 2016 17:05
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.23)  25 MAR 2016 10:09
 entering extended mode
 **bare_conf.tex
-(C:\Users\glfpes\Desktop\IEEEtran\bare_conf.tex
+(C:\Users\glfpes\Documents\GitHub\MiniThesis\IEEEtran\bare_conf.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for loaded.
-(C:\Users\glfpes\Desktop\IEEEtran\IEEEtran.cls
+(C:\Users\glfpes\Documents\GitHub\MiniThesis\IEEEtran\IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
@@ -111,7 +111,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \IEEEPARstartletwidth=\dimen125
 \c@IEEEbiography=\count93
 \@IEEEtranrubishbin=\box27
-) (C:\Users\glfpes\Desktop\IEEEtran\bare_conf.aux)
+) (C:\Users\glfpes\Documents\GitHub\MiniThesis\IEEEtran\bare_conf.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 315.
 LaTeX Font Info:    ... okay on input line 315.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 315.
@@ -153,19 +153,20 @@ Before submitting the final camera ready copy, remember to:
 
 
 ]
-(C:\Users\glfpes\Desktop\IEEEtran\bare_conf.aux) ) 
+(C:\Users\glfpes\Documents\GitHub\MiniThesis\IEEEtran\bare_conf.aux) ) 
 Here is how much of TeX's memory you used:
  1068 strings out of 495354
- 19515 string characters out of 3183859
+ 19695 string characters out of 3183859
  71727 words of memory out of 3000000
  4295 multiletter control sequences out of 15000+200000
  40942 words of font info for 74 fonts, out of 3000000 for 9000
  17 hyphenation exceptions out of 8191
  26i,7n,19p,569b,236s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/CTEX/MiKTeX/fonts/enc/dvi
-ps/fontname/8r.enc}<D:/CTEX/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><D:/CTEX/Mi
-KTeX/fonts/type1/urw/times/utmbi8a.pfb><D:/CTEX/MiKTeX/fonts/type1/urw/times/ut
-mr8a.pfb><D:/CTEX/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+{D:/CTEX/
+MiKTeX/fonts/enc/dvips/fontname/8r.enc}<D:/CTEX/MiKTeX/fonts/type1/urw/times/ut
+mb8a.pfb><D:/CTEX/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><D:/CTEX/MiKTeX/font
+s/type1/urw/times/utmr8a.pfb><D:/CTEX/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+
 Output written on bare_conf.pdf (1 page, 44926 bytes).
 PDF statistics:
  23 PDF objects out of 1000 (max. 8388607)
