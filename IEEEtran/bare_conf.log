@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.23)  25 MAR 2016 10:09
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.23)  26 MAR 2016 23:04
 entering extended mode
 **bare_conf.tex
 (C:\Users\glfpes\Documents\GitHub\MiniThesis\IEEEtran\bare_conf.tex
@@ -127,17 +127,11 @@ LaTeX Font Info:    ... okay on input line 315.
 
 -- Lines per column: 56 (exact).
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 515.
+(Font)              <8> on input line 582.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 515.
+(Font)              <6> on input line 582.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 585.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 585.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+(Font)              <5> on input line 582.
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -155,19 +149,18 @@ Before submitting the final camera ready copy, remember to:
 ]
 (C:\Users\glfpes\Documents\GitHub\MiniThesis\IEEEtran\bare_conf.aux) ) 
 Here is how much of TeX's memory you used:
- 1068 strings out of 495354
- 19695 string characters out of 3183859
- 71727 words of memory out of 3000000
- 4295 multiletter control sequences out of 15000+200000
- 40942 words of font info for 74 fonts, out of 3000000 for 9000
+ 1066 strings out of 495354
+ 19675 string characters out of 3183859
+ 74727 words of memory out of 3000000
+ 4294 multiletter control sequences out of 15000+200000
+ 39864 words of font info for 73 fonts, out of 3000000 for 9000
  17 hyphenation exceptions out of 8191
- 26i,7n,19p,569b,236s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 26i,7n,19p,1280b,236s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/CTEX/
 MiKTeX/fonts/enc/dvips/fontname/8r.enc}<D:/CTEX/MiKTeX/fonts/type1/urw/times/ut
 mb8a.pfb><D:/CTEX/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><D:/CTEX/MiKTeX/font
 s/type1/urw/times/utmr8a.pfb><D:/CTEX/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-
-Output written on bare_conf.pdf (1 page, 44926 bytes).
+Output written on bare_conf.pdf (1 page, 46259 bytes).
 PDF statistics:
  23 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
