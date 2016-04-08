@@ -515,9 +515,10 @@ Email: xue-gt@cs.sjtu.edu.cn}
 	In this paper, we propose a new approach that can provided all the four criteria listed above. We follow the work based on AOA algorithm and rolling shutter effect of smart phone camera proposed by the work of Luxapose, and targeting its defects on encoding mechanism that can only identifies handful landmarks and user-friendly scenarios that need users to actively taking a picture to locate themselves, we give our solutions. In order to make the landmarks that are distinguishable to be scalable, we raised an encoding algorithm based on the idea of frequency domain multiplexing(FDM) by mixing the rgb channels of leds to convey adequate messages with a blink frequency of 4000Hz. We applied manchester codes to our encoding mechanism so that the mixed led light will be white to human eyes. Users can taking the picture at a high exposure time and low ISO value to exploit the rolling shutter effect, and the stripes on the picture can be processed by FFT knowing its frequency is 4000Hz, then the mixed of rgb can be detached at Hue-Saturation-Lightness space so that we can obtain its encoding message. With the aid of web-based indoor maps, we can locate the user at a relatively close aera. If the user needs centimeter level precision, he/she can take a picture with multiple(no less than three) landmarks(led luminaries) and with the aid of AOA algorithm, the system can provide the result. We propose a scenario that users can obtain similar map experience indoors as outdoors that based on GPS module. In this scenario, we exploit the smart phone 3D acceleration sensor and compass sensor, we can obtain the user's track by software and with history based learning strategy we can remind users to adjust their location by our visible light positioning system to erase the deviation. So in this scenario, the indoor malls need to add a control module to the rgbleds, and the users need to install the smart phone app to work with the server, and all together we can fulfill this indoor positioning scenario.
 	
 \section{Background and Motivation}
-	Instantly knowing the location indoors is feasible in several related works. Specifically, there are two types of them: signal based IPS(indoor positioning system) and visible light based IPS.
+	Instantly knowing the location indoors is feasible in several related works. Specifically, there are two types of them: signal based IPS(indoor positioning system) and visible light based IPS. Signal based IPS, includes ultrasonic(US) and infrared(IR), and radio-frequency(RF) signal which may based on radio-frequency identification (RFID), received signal strength (RSS) of RF signals, Bluetooth wireless local area network (WLAN), ultra-wideband (UWB), etc[7]. Visible light based IPS usually exploits visible light with computer vision to work together as a method in IPS. It works with embeded CMOS cameras in smart phones which needs hardly additional facilities and provides fine results.
 	
-	Signal based IPS, includes ultrasonic(US) and infrared(IR), and radio-frequency(RF) signal which may based on radio-frequency identification (RFID), received signal strength (RSS) of RF signals, Bluetooth wireless local area network (WLAN), ultra-wideband (UWB), etc[7]. An indoor positioning system generally has an architecture of 3 phrases as shown in Figure 1. First step is to expose physical signals that contains the location information by US, IR, RF or other signals described above. These signal travels between emitter and receiver token by users. Then various methods are applied to calculate the physical quantity like measuring time of arrival (TOA), time different of arrival (TDOA), angle of arrival (AOA), received signal strength (RSS) etc. With the raw information of a physical quantity measured, various techniques and algorithms are used which transform raw data into usable position information. Techniques have been classified as triangulation/trilateration, Scene Analysis, Proximity [9] and fingerprinting [10].
+	
+	An indoor positioning system generally has an architecture of 3 phrases as shown in Figure 1. First step is to expose physical signals that contains the location information by US, IR, RF or other signals described above. These signal travels between emitter and receiver token by users. Then various methods are applied to calculate the physical quantity like measuring time of arrival (TOA), time different of arrival (TDOA), angle of arrival (AOA), received signal strength (RSS) etc. With the raw information of a physical quantity measured, various techniques and algorithms are used which transform raw data into usable position information. Techniques have been classified as triangulation/trilateration [9], minmax algorithm [10], maximum likelihood[11] and fingerprinting [12].
 	
 	
 	For ultrasonic(US) based IPS, 
@@ -580,46 +581,56 @@ Email: xue-gt@cs.sjtu.edu.cn}
 % (used to reserve space for the reference number labels box)
 \begin{thebibliography}{1}
 
-\bibitem{luxapose}
+\bibitem{1,luxapose}
 Ye-Sheng Kuo, Pat Pannuto, Ko-Jen Hsiao and Prabal Dutta. Luxapose: Indoor positioning with mobile phones and visible light. In Proc. 20th annual international conference on Mobile computing and networking (Mobicom ’14)
 Pages 299-302.
 
-\bibitem{radar}
+\bibitem{2,radar}
 P. Bahl and V. N. Padmanabhan. RADAR: An in-building
 RF-based user location and tracking system. In Proc. 19th
 Annual Joint Conference of the IEEE Computer and
 Communications Societies. (INFOCOM ’00), volume 2, 2000.
 
-\bibitem{cmos}
+\bibitem{3,cmos}
 C. Danakis, M. Afgani, G. Povey, I. Underwood, and H. Haas, “Using a CMOS camera sensor for visible light
 communication”, in Proceedings of the IEEE Workshop on Optical and Wireless Communication (OWC), pp. 1244-
 1248, 2012.
 
-\bibitem{ips without pain}
+\bibitem{4,ips without pain}
 K. Chintalapudi, A. Padmanabha Iyer, and V. N.
 Padmanabhan. Indoor localization without the pain. In Proc.
 of the 16th ACM Annual International Conference on Mobile
 Computing and Networking (MobiCom ’10), 2010.
 
-\bibitem{ultrasonic}
+\bibitem{5,ultrasonic}
 
 
-\bibitem{epsilon}
+\bibitem{6,epsilon}
 Liqun Li, Pan Hu, Guobin Shen, Chunyi Peng, Feng Zhao, "Epsilon: A Visible Light Based Positioning System", the 11th USENIX Symposium on Networked Systems Design and Implementation , Seattle, Washington, 2014.
 
-\bibitem{ultrasonic review}
+\bibitem{7,ultrasonic review}
 Faheem Ijaz, Hee Kwon Yang, Arbab Waheed Ahmad, Chankil Lee. "Indoor positioning: A review of indoor ultrasonic positioning systems", Advanced Communication Technology (ICACT).
 
 
-\bibitem{rfid}
+\bibitem{8,rfid}
 LIONEL M. NI and YUNHAO LIU, "LANDMARC: Indoor Location Sensing Using Active RFID", Pervasive Computing and Communications, 2003. (PerCom 2003).
 
+\bibitem{9,triangulation}
+J. Hightower, SpotON: An Indoor 3D Location Sensing Technology Based on RF
+Signal Strength, in: Department of Computer Science and Engineering,
+University of Washington, Seattle, WA, 2000.
 
-\bibitem{Proximity}
-University of W. J. Hightower, "Location sensing
-techniques," IEEE Computer Magazine, no. August, pp. 1-8,2001.
+\bibitem{10,minmax}
+K. Langendoen, N. Reijers, Distributed localization in wireless sensor networks:
+a quantitative comparison, Computer Networks 43 (2003) 499–518.
 
-\bibitem{figerprinting}
+\bibitem{11,maximum likelyhood}
+M. Sugano, T. Kawazoe, Y. Ohta, M. Murata, Indoor Localization System Using
+RSSI Measurement of Wireless Sensor Network Based on ZigBee Standard, in:
+The IASTED International Conference on Wireless Sensor Networks (WSN
+2006) Banff, Canada, 2006.
+
+\bibitem{12,figerprinting}
 K. Kaemarungsi and P. Krishnamurthy, "Properties of indoor
 received signal strength for WLAN location fingerprinting," The First Annual InternatIOnal Conference on Mobtle and UbiqUitous
 Systems: Networking and Services, 2004. MOBIQU1TOUS 2004.
