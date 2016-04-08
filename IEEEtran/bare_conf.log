@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.4)  6 APR 2016 13:59
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.23)  8 APR 2016 13:41
 entering extended mode
 **bare_conf.tex
 (C:\Users\glfpes\Documents\GitHub\MiniThesis\IEEEtran\bare_conf.tex
@@ -17,7 +17,7 @@ Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 \@IEEEtrantmptoksA=\toks14
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 503.
 
-(C:\develop\CTEX\MiKTeX\tex\latex\psnfss\ot1ptm.fd
+(D:\CTEX\MiKTeX\tex\latex\psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 -- Using 8.5in x 11in (letter) paper.
@@ -111,7 +111,39 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \IEEEPARstartletwidth=\dimen125
 \c@IEEEbiography=\count93
 \@IEEEtranrubishbin=\box27
-) (C:\Users\glfpes\Documents\GitHub\MiniThesis\IEEEtran\bare_conf.aux)
+) (D:\CTEX\MiKTeX\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(D:\CTEX\MiKTeX\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(D:\CTEX\MiKTeX\tex\latex\graphics\graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(D:\CTEX\MiKTeX\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(D:\CTEX\MiKTeX\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(D:\CTEX\MiKTeX\tex\latex\pdftex-def\pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(D:\CTEX\MiKTeX\tex\generic\oberdiek\infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+(D:\CTEX\MiKTeX\tex\generic\oberdiek\ltxcmds.sty
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count94
+))
+\Gin@req@height=\dimen126
+\Gin@req@width=\dimen127
+)
+(C:\Users\glfpes\Documents\GitHub\MiniThesis\IEEEtran\bare_conf.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 315.
 LaTeX Font Info:    ... okay on input line 315.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 315.
@@ -126,13 +158,36 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 315.
 LaTeX Font Info:    ... okay on input line 315.
 
 -- Lines per column: 56 (exact).
-[1{C:/develop/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}}
+(D:\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count95
+\scratchdimen=\dimen128
+\scratchbox=\box28
+\nofMPsegments=\count96
+\nofMParguments=\count97
+\everyMPshowfont=\toks16
+\MPscratchCnt=\count98
+\MPscratchDim=\dimen129
+\MPnumerator=\count99
+\makeMPintoPDFobject=\count100
+\everyMPtoPDFconversion=\toks17
+) [1{D:/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}}
 
 
 ]
 Underfull \hbox (badness 1552) in paragraph at lines 518--519
 \OT1/ptm/m/n/10 on radio-frequency i-den-ti-fi-ca-tion (R-FID), re-ceived sig-n
 al
+ []
+
+<img/fig1.pdf, id=9, 554.91214pt x 87.00505pt>
+File: img/fig1.pdf Graphic file (type pdf)
+ <use img/fig1.pdf>
+Package pdftex.def Info: img/fig1.pdf used on input line 523.
+(pdftex.def)             Requested size: 252.94499pt x 39.65904pt.
+
+Overfull \hbox (0.94499pt too wide) in paragraph at lines 523--524
+ [][] 
  []
 
 Missing character: There is no â in font ptmr7t!
@@ -168,23 +223,25 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[2] (C:\Users\glfpes\Documents\GitHub\MiniThesis\IEEEtran\bare_conf.aux) ) 
+[2 <C:/Users/glfpes/Documents/GitHub/MiniThesis/IEEEtran/img/fig1.pdf, page is 
+rotated 90 degrees>]
+(C:\Users\glfpes\Documents\GitHub\MiniThesis\IEEEtran\bare_conf.aux) ) 
 Here is how much of TeX's memory you used:
- 1059 strings out of 495354
- 19674 string characters out of 3183412
- 77727 words of memory out of 3000000
- 4295 multiletter control sequences out of 15000+200000
+ 1955 strings out of 495354
+ 31440 string characters out of 3183859
+ 93284 words of memory out of 3000000
+ 5157 multiletter control sequences out of 15000+200000
  35221 words of font info for 64 fonts, out of 3000000 for 9000
  17 hyphenation exceptions out of 8191
- 26i,7n,19p,2038b,236s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/d
-evelop/CTEX/MiKTeX/fonts/enc/dvips/fontname/8r.enc}<C:/develop/CTEX/MiKTeX/font
-s/type1/urw/times/utmb8a.pfb><C:/develop/CTEX/MiKTeX/fonts/type1/urw/times/utmb
-i8a.pfb><C:/develop/CTEX/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/develop/CT
-EX/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on bare_conf.pdf (2 pages, 51457 bytes).
+ 27i,7n,19p,2038b,236s stack positions out of 5000i,500n,10000p,200000b,50000s
+{D:/CTEX/
+MiKTeX/fonts/enc/dvips/fontname/8r.enc}<D:/CTEX/MiKTeX/fonts/type1/urw/times/ut
+mb8a.pfb><D:/CTEX/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><D:/CTEX/MiKTeX/font
+s/type1/urw/times/utmr8a.pfb><D:/CTEX/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+
+Output written on bare_conf.pdf (2 pages, 90176 bytes).
 PDF statistics:
- 26 PDF objects out of 1000 (max. 8388607)
+ 40 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

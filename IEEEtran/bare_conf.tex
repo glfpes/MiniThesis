@@ -108,7 +108,7 @@
 % http://www.ctan.org/pkg/cite
 % The documentation is contained in the cite.sty file itself.
 
-
+\usepackage{graphicx}
 
 
 
@@ -516,6 +516,16 @@ Email: xue-gt@cs.sjtu.edu.cn}
 	
 \section{Background and Motivation}
 	Instantly knowing the location indoors is feasible in several related works. Specifically, there are two types of them: signal based IPS(indoor positioning system) and visible light based IPS. Signal based IPS, includes ultrasonic(US) and infrared(IR), and radio-frequency(RF) signal which may based on radio-frequency identification (RFID), received signal strength (RSS) of RF signals, Bluetooth wireless local area network (WLAN), ultra-wideband (UWB), etc[7]. Visible light based IPS usually exploits visible light with computer vision to work together as a method in IPS. It works with embeded CMOS cameras in smart phones which needs hardly additional facilities and provides fine results.
+	
+	
+	\begin{figure}
+	\centering
+	\includegraphics[width=3.5in]{img/fig1.pdf}
+	\caption{Architecture of general IPS.}
+	\label{fig_sim}
+	\end{figure}
+	
+  
 	
 	
 	An indoor positioning system generally has an architecture of 3 phrases as shown in Figure 1. First step is to expose physical signals that contains the location information by US, IR, RF or other signals described above. These signal travels between emitter and receiver token by users. Then various methods are applied to calculate the physical quantity like measuring time of arrival (TOA), time different of arrival (TDOA), angle of arrival (AOA), received signal strength (RSS) etc. With the raw information of a physical quantity measured, various techniques and algorithms are used which transform raw data into usable position information. Techniques have been classified as triangulation/trilateration [9], minmax algorithm [10], maximum likelihood[11] and fingerprinting [12].
