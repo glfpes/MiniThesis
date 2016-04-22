@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.4)  8 APR 2016 16:29
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.4)  22 APR 2016 16:28
 entering extended mode
 **bare_conf.tex
 (C:\Users\glfpes\Documents\GitHub\MiniThesis\IEEEtran\bare_conf.tex
@@ -180,11 +180,12 @@ Underfull \hbox (badness 1552) in paragraph at lines 518--519
 al
  []
 
-<img/fig1.pdf, id=9, 554.91214pt x 87.00505pt>
-File: img/fig1.pdf Graphic file (type pdf)
- <use img/fig1.pdf>
-Package pdftex.def Info: img/fig1.pdf used on input line 522.
-(pdftex.def)             Requested size: 252.94499pt x 39.65904pt.
+<../img.origin/fig1.pdf, id=9, 554.91214pt x 121.59126pt>
+File: ../img.origin/fig1.pdf Graphic file (type pdf)
+
+<use ../img.origin/fig1.pdf>
+Package pdftex.def Info: ../img.origin/fig1.pdf used on input line 522.
+(pdftex.def)             Requested size: 252.94499pt x 55.42429pt.
 
 Overfull \hbox (0.94499pt too wide) in paragraph at lines 522--523
  [][] 
@@ -212,15 +213,28 @@ Missing character: There is no ù in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
-[2 <C:/Users/glfpes/Documents/GitHub/MiniThesis/IEEEtran/img/fig1.pdf, page is 
-rotated 90 degrees>]
+[2 <C:/Users/glfpes/Documents/GitHub/MiniThesis/img.origin/fig1.pdf, page is ro
+tated 90 degrees>]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 547.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 547.
+ <../img.origin/fig2.pdf, id=30, 534.02846pt x 561.39154pt>
+File: ../img.origin/fig2.pdf Graphic file (type pdf)
+
+<use ../img.origin/fig2.pdf>
+Package pdftex.def Info: ../img.origin/fig2.pdf used on input line 565.
+(pdftex.def)             Requested size: 252.94499pt x 265.90993pt.
+
+Overfull \hbox (0.94499pt too wide) in paragraph at lines 565--566
+ [][] 
+ []
+
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
+[3 <C:/Users/glfpes/Documents/GitHub/MiniThesis/img.origin/fig2.pdf, page is ro
+tated 90 degrees>]
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
@@ -242,26 +256,28 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[3] (C:\Users\glfpes\Documents\GitHub\MiniThesis\IEEEtran\bare_conf.aux) ) 
+[4
+
+] (C:\Users\glfpes\Documents\GitHub\MiniThesis\IEEEtran\bare_conf.aux) ) 
 Here is how much of TeX's memory you used:
- 1975 strings out of 495354
- 31842 string characters out of 3183412
- 95288 words of memory out of 3000000
- 5170 multiletter control sequences out of 15000+200000
- 38768 words of font info for 72 fonts, out of 3000000 for 9000
+ 1983 strings out of 495354
+ 32029 string characters out of 3183412
+ 95300 words of memory out of 3000000
+ 5176 multiletter control sequences out of 15000+200000
+ 39875 words of font info for 73 fonts, out of 3000000 for 9000
  17 hyphenation exceptions out of 8191
- 27i,8n,19p,2046b,236s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/d
-evelop/CTEX/MiKTeX/fonts/enc/dvips/fontname/8r.enc}<C:/develop/CTEX/MiKTeX/font
-s/type1/public/amsfonts/cm/cmmi10.pfb><C:/develop/CTEX/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmmi7.pfb><C:/develop/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmr10.pfb><C:/develop/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
-/develop/CTEX/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/develop/CTEX/MiKTeX/f
-onts/type1/urw/times/utmbi8a.pfb><C:/develop/CTEX/MiKTeX/fonts/type1/urw/times/
-utmr8a.pfb><C:/develop/CTEX/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on bare_conf.pdf (3 pages, 128122 bytes).
+ 27i,8n,19p,2045b,236s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/dev
+elop/CTEX/MiKTeX/fonts/enc/dvips/fontname/8r.enc}<C:/develop/CTEX/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmmi10.pfb><C:/develop/CTEX/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmmi7.pfb><C:/develop/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+r10.pfb><C:/develop/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/d
+evelop/CTEX/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/develop/CTEX/MiKTeX/fon
+ts/type1/urw/times/utmbi8a.pfb><C:/develop/CTEX/MiKTeX/fonts/type1/urw/times/ut
+mr8a.pfb><C:/develop/CTEX/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on bare_conf.pdf (4 pages, 178138 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
+ 76 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
