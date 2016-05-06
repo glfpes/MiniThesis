@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.4)  22 APR 2016 16:28
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.4)  6 MAY 2016 14:49
 entering extended mode
 **bare_conf.tex
 (C:\Users\glfpes\Documents\GitHub\MiniThesis\IEEEtran\bare_conf.tex
@@ -143,39 +143,97 @@ Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen126
 \Gin@req@width=\dimen127
 )
+(C:\develop\CTEX\MiKTeX\tex\latex\ams\math\amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip44
+
+For additional information on amsmath, use the `?' option.
+(C:\develop\CTEX\MiKTeX\tex\latex\ams\math\amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(C:\develop\CTEX\MiKTeX\tex\latex\ams\math\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen128
+))
+(C:\develop\CTEX\MiKTeX\tex\latex\ams\math\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen129
+)
+(C:\develop\CTEX\MiKTeX\tex\latex\ams\math\amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count95
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count96
+\leftroot@=\count97
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count98
+\DOTSCASE@=\count99
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box28
+\strutbox@=\box29
+\big@size=\dimen130
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count100
+\c@MaxMatrixCols=\count101
+\dotsspace@=\muskip10
+\c@parentequation=\count102
+\dspbrk@lvl=\count103
+\tag@help=\toks17
+\row@=\count104
+\column@=\count105
+\maxfields@=\count106
+\andhelp@=\toks18
+\eqnshift@=\dimen131
+\alignsep@=\dimen132
+\tagshift@=\dimen133
+\tagwidth@=\dimen134
+\totwidth@=\dimen135
+\lineht@=\dimen136
+\@envbody=\toks19
+\multlinegap=\skip45
+\multlinetaggap=\skip46
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
 (C:\Users\glfpes\Documents\GitHub\MiniThesis\IEEEtran\bare_conf.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 315.
-LaTeX Font Info:    ... okay on input line 315.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 315.
-LaTeX Font Info:    ... okay on input line 315.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 315.
-LaTeX Font Info:    ... okay on input line 315.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 315.
-LaTeX Font Info:    ... okay on input line 315.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 315.
-LaTeX Font Info:    ... okay on input line 315.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 315.
-LaTeX Font Info:    ... okay on input line 315.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 316.
+LaTeX Font Info:    ... okay on input line 316.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 316.
+LaTeX Font Info:    ... okay on input line 316.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 316.
+LaTeX Font Info:    ... okay on input line 316.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 316.
+LaTeX Font Info:    ... okay on input line 316.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 316.
+LaTeX Font Info:    ... okay on input line 316.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 316.
+LaTeX Font Info:    ... okay on input line 316.
 
 -- Lines per column: 56 (exact).
 (C:\develop\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count95
-\scratchdimen=\dimen128
-\scratchbox=\box28
-\nofMPsegments=\count96
-\nofMParguments=\count97
-\everyMPshowfont=\toks16
-\MPscratchCnt=\count98
-\MPscratchDim=\dimen129
-\MPnumerator=\count99
-\makeMPintoPDFobject=\count100
-\everyMPtoPDFconversion=\toks17
+\scratchcounter=\count107
+\scratchdimen=\dimen137
+\scratchbox=\box30
+\nofMPsegments=\count108
+\nofMParguments=\count109
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count110
+\MPscratchDim=\dimen138
+\MPnumerator=\count111
+\makeMPintoPDFobject=\count112
+\everyMPtoPDFconversion=\toks22
 ) [1{C:/develop/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}}
 
 
 ]
-Underfull \hbox (badness 1552) in paragraph at lines 518--519
+Underfull \hbox (badness 1552) in paragraph at lines 519--520
 \OT1/ptm/m/n/10 on radio-frequency i-den-ti-fi-ca-tion (R-FID), re-ceived sig-n
 al
  []
@@ -184,20 +242,16 @@ al
 File: ../img.origin/fig1.pdf Graphic file (type pdf)
 
 <use ../img.origin/fig1.pdf>
-Package pdftex.def Info: ../img.origin/fig1.pdf used on input line 522.
+Package pdftex.def Info: ../img.origin/fig1.pdf used on input line 523.
 (pdftex.def)             Requested size: 252.94499pt x 55.42429pt.
 
-Overfull \hbox (0.94499pt too wide) in paragraph at lines 522--523
+Overfull \hbox (0.94499pt too wide) in paragraph at lines 523--524
  [][] 
  []
 
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 534.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 534.
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no œ in font ptmr7t!
@@ -214,27 +268,49 @@ Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
 [2 <C:/Users/glfpes/Documents/GitHub/MiniThesis/img.origin/fig1.pdf, page is ro
-tated 90 degrees>]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 547.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 547.
- <../img.origin/fig2.pdf, id=30, 534.02846pt x 561.39154pt>
+tated 90 degrees>] <../img.origin/fig2.pdf, id=30, 534.02846pt x 561.39154pt>
 File: ../img.origin/fig2.pdf Graphic file (type pdf)
 
 <use ../img.origin/fig2.pdf>
-Package pdftex.def Info: ../img.origin/fig2.pdf used on input line 565.
+Package pdftex.def Info: ../img.origin/fig2.pdf used on input line 566.
 (pdftex.def)             Requested size: 252.94499pt x 265.90993pt.
 
-Overfull \hbox (0.94499pt too wide) in paragraph at lines 565--566
+Overfull \hbox (0.94499pt too wide) in paragraph at lines 566--567
  [][] 
+ []
+
+[3 <C:/Users/glfpes/Documents/GitHub/MiniThesis/img.origin/fig2.pdf, page is ro
+tated 90 degrees>] <../img.origin/fig3.jpg, id=47, 421.575pt x 316.18124pt>
+File: ../img.origin/fig3.jpg Graphic file (type jpg)
+
+<use ../img.origin/fig3.jpg>
+Package pdftex.def Info: ../img.origin/fig3.jpg used on input line 589.
+(pdftex.def)             Requested size: 252.94499pt x 189.7102pt.
+
+Overfull \hbox (0.94499pt too wide) in paragraph at lines 589--590
+ [][] 
+ []
+
+<../img.origin/fig4.png, id=48, 717.43031pt x 409.53pt>
+File: ../img.origin/fig4.png Graphic file (type png)
+
+<use ../img.origin/fig4.png>
+Package pdftex.def Info: ../img.origin/fig4.png used on input line 606.
+(pdftex.def)             Requested size: 252.94499pt x 144.38745pt.
+
+Overfull \hbox (0.94499pt too wide) in paragraph at lines 606--607
+ [][] 
+ []
+
+[4 <C:/Users/glfpes/Documents/GitHub/MiniThesis/img.origin/fig3.jpg> <C:/Users/
+glfpes/Documents/GitHub/MiniThesis/img.origin/fig4.png>]
+Overfull \hbox (1.83781pt too wide) in paragraph at lines 628--628
+[] 
  []
 
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
-[3 <C:/Users/glfpes/Documents/GitHub/MiniThesis/img.origin/fig2.pdf, page is ro
-tated 90 degrees>]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
@@ -244,7 +320,6 @@ Missing character: There is no ™ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
-
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -256,28 +331,28 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4
-
-] (C:\Users\glfpes\Documents\GitHub\MiniThesis\IEEEtran\bare_conf.aux) ) 
+[5] (C:\Users\glfpes\Documents\GitHub\MiniThesis\IEEEtran\bare_conf.aux) ) 
 Here is how much of TeX's memory you used:
- 1983 strings out of 495354
- 32029 string characters out of 3183412
- 95300 words of memory out of 3000000
- 5176 multiletter control sequences out of 15000+200000
- 39875 words of font info for 73 fonts, out of 3000000 for 9000
+ 2595 strings out of 495354
+ 38934 string characters out of 3183412
+ 105730 words of memory out of 3000000
+ 5766 multiletter control sequences out of 15000+200000
+ 40779 words of font info for 77 fonts, out of 3000000 for 9000
  17 hyphenation exceptions out of 8191
- 27i,8n,19p,2045b,236s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/dev
-elop/CTEX/MiKTeX/fonts/enc/dvips/fontname/8r.enc}<C:/develop/CTEX/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmmi10.pfb><C:/develop/CTEX/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmmi7.pfb><C:/develop/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cm
-r10.pfb><C:/develop/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/d
-evelop/CTEX/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/develop/CTEX/MiKTeX/fon
-ts/type1/urw/times/utmbi8a.pfb><C:/develop/CTEX/MiKTeX/fonts/type1/urw/times/ut
-mr8a.pfb><C:/develop/CTEX/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on bare_conf.pdf (4 pages, 178138 bytes).
+ 27i,17n,20p,2045b,240s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/d
+evelop/CTEX/MiKTeX/fonts/enc/dvips/fontname/8r.enc}<C:/develop/CTEX/MiKTeX/font
+s/type1/public/amsfonts/cm/cmmi10.pfb><C:/develop/CTEX/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmmi7.pfb><C:/develop/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmr10.pfb><C:/develop/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/d
+evelop/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/develop/CTEX/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/develop/CTEX/MiKTeX/fonts/typ
+e1/urw/times/utmb8a.pfb><C:/develop/CTEX/MiKTeX/fonts/type1/urw/times/utmbi8a.p
+fb><C:/develop/CTEX/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/develop/CTEX/Mi
+KTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on bare_conf.pdf (5 pages, 263523 bytes).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
+ 91 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -109,6 +109,7 @@
 % The documentation is contained in the cite.sty file itself.
 
 \usepackage{graphicx}
+\usepackage{amsmath}
 
 
 
@@ -578,14 +579,56 @@ For each time the user wants to locate himself/herself, it is necessary to take 
 Our system adpots an RGB mixed visible light as a communication channel to deliver locationing data. The RGBLED luminaries work as the transmitter and the smartphone camera works as the receiver. The encoding section describes how we encode digital map information into light signal with red, green and blue subchannels. The decoding section describes how we recover the message from mixed visible light. The positioning algorithm gives out detailed equations of angle of arrival that how can we measure the location based on all kinds of data we get.
 
 \subsection{Encoding}
-We deploy five RGBLED luminaries with their relative geometry known to provide redundancy in case some of them cannot be decoded. In fact under ideal circumstances three RGBLED luminaries will make the system locate the user's 3D location [14].
+We deploy five RGBLED luminaries with their relative geometry known to provide redundancy in case some of them cannot be decoded. In fact under ideal circumstances three RGBLED luminaries will make the system locate the user's 3D location [14]. In other systems such as Luxapose [1] which exploits frequency as the method to distinguish different beacons, the major problem in practice is that it would need enough large barrier between the different frequencies so that the different stripes from rolling shutter effect could be distinguishable against the error casued by the photoing procedure. 
+We introduce a novel encoding schema based on RGBLED with the method of frequency-domain multiplexing. By encoding different messages distinctly on red, green and blue channel with manchester coding which has a duty ratio of 50\% at a high frequency such as 4000Hz in our experiment, the beam radiates as white to human eyes which means this light can be used as normal illumination indoors.
 
+The three channels work at a same frequency. We select the red channel as the clock channel, which means the red led will be light and dark at a constraint frequency, and it can cut consequent time into fixed size small pieces. The green and blue leds will perform each single signal in each piece based on red channel. The green channel encodes the geographic information of the beacon source the LED belongs to. The blue channel encodes the identity information that can tell the LEDs on the same beacon source apart. Fig. 3 shows one optional encoding implement with a coding length of 8 bit. The encoding digit length is restraint to how many stripes can be discovered on one single light spot on image, and this depends on the distance between camera and RED light as well as the resolution of camera. For our experiment case with Lumia 1020 camera, we can decode the image at a range up tp 5 meters with a resolution of 15M pixels, and under this circumstances we can encode in 8-dight length which stands for 8-bit symbol. So we can get $256 \times 256$ distinct RGBLED luminary. 
+
+	\begin{figure}
+		\centering
+		\includegraphics[width=3.5in]{../img.origin/fig3.jpg}
+		\caption{Timing Diagram of Manchester Encoding.}
+		\label{fig_3}
+	\end{figure}
 
 \subsection{Decoding}
+First we need to find the centroid and size of each led spot on the rolling shutter image taken by the smartphone camera. The method is an image processing pipeline. First we need to rotate the picture to a standard manner since people take pictures in different angles. Then we convert the image to grayscale and we apply blur to it. After that we exploits a OTSU filter to find the edges of different spots on the image. We locates contours for different spots, and get the centroid by its circumcircle. With the centroid got, we know the spot maps to where on the image, and with the mask by the contour, we can respectively get each light spot for further processing. 
+
+We need to calculate the encoding frequency with the help of rolling shutter effect. We can compress the image subregion of light spot vertical to the rolling shutter stripes, and outcome a vector and take an FFT of it. By this way we can convert the time-domain stripes into frequency-domain result with an error less than 200Hz. By declaring that the transmit frequency be interger multiplies of five hundred, we can enlarge the channel up to $n/1000$ times with $n$ stands for the reciprocal of exposure time parameter of smartphone camera, about 1/10000 second up to normal phones. For a smartphone with a camera of 1/10000 second exposure time, the expanding multiples of encoding channel is 10.  
+
+In our encoding schema, for each timeslice, we can get a RGB value in one of the eight circumstances of {\#000000, \#0000ff, \#00ff00, \#00ffff, \#ff0000, \#ff00ff, \#ffff00, \#ffffff,}. The control unit can make it sure that each signal is strictly aligned in each timeslice. So the main idea is masking pure red to get timeslice gaps, and with the help of timeslice gaps, we use green and blue masks respectively to gain raw encoding information. 
 
 \subsection{Positioning Algorithm}
+By decoding the green channel with the aid from server end digital map data, we can roughly locate ourselves around one certain beacon source. We adopt the arrival of angle algorithm to obtain precious positioning results. With a well-token image which means at least three distinct RGBLED luminaries can be decodable, we can determine the 3D position of the camera with respect to the beacon source.
 
+	\begin{figure}
+		\centering
+		\includegraphics[width=3.5in]{../img.origin/fig4.png}
+		\caption{AOA algorithm.}
+		\label{fig_4}
+	\end{figure}
 
+As shown in Fig.4, the RGBLED luminary locate at point $T_0(x_0,y_0,z_0)_T$, this coordination is in the coordinate system on the positioning beacon source board and this is known to us but not the required coordination that we want to know. The luminary $T_0$ with the center of convex lens $(0,0,0)$ as well as the projection on the camera film $i_0(a_0, b_0, Z_f)_R$ stand in a line. $Z_f$ is the distance between lens and film, and $a_0$, $b_0$ can be got by locating the spot on the image as we talked above in section 4.2. Obvirously with geometry laws we can get the coordination of $T_0(u_0,v_0,w_0)$ that relative to the lens:
+	\begin{equation}
+	\begin{split}
+	& 	u_0 = K_0 \times a_0\\	
+	&	v_0 = K_0 \times b_0\\
+	&	w_0 = K_0 \times Z_f
+	\end{split}
+	\end{equation}
+Here $K_0$ is an unknown. Obvirously, the goal is to calculate $T_0(u_0,v_0,w_0)$. We have three pairs of this equation for three LED luminaries. And we know the location of $T_0(x_0,y_0,z_0)_T$,  $T_1(x_1,y_1,z_1)_T$ and  $T_2(x_2,y_2,z_2)_T$. Since we know the precise deploying location of $T_0$, $T_1$ and $T_2$, we can thus obtain the precise location of the user.
+
+We define $d_0$ as the distance between $T_0$ and $T_1$, we can get the equation below:
+	\begin{equation}
+	\begin{split}
+		&d_0^2 = (u_0 - u_1)^2 + (v_0 - v_1)^2 + (w_0 - w_1)^2  \\
+		& \quad   =(K_0a_0-K_1a_1)^2 + (K_0b_0-K_1b_1)^2 +(K_0c_0-K_1c_1)^2  \\
+		& \quad   =K_0^2[\vec{O_{l_0}}]^2 + K_1^2[\vec{O_{l_1}}]^2 - 2K_0K_1(\vec{O_{l_0}}\vec{O_{l_1}})
+	\end{split}
+	\end{equation}
+Here $\vec{O_{l_0}}$ and $\vec{O_{l_1}}$ stand for a vector begin from the center of convex lens and end at $i_0(a_0, b_0, Z_f)_R$ and $i_1(a_1, b_1, Z_f)_R$. $K_0$ and $K_1$ are unknown to us. This is only two of the three LEDs, and by exploiting all three LEDs we can get a ternary quadratic group which means we can solve $K_0$, $K_1$ and $K_2$ out. With $K_0$, we can get the location of C with the help of equation[2]. Similarly we can get $T_1(u_1,v_1,w_1)$ and $T_2(u_2,v_2,w_2)$. 
+
+However, this is an ideal scenario. Actually, the procedure when we locate the spot on image to get the $i_0(a_0, b_0, Z_f)_R$, we may generate cumullative errors. In order to reduce the errors, we transform the known coordinates of $T_0(x_0,y_0,z_0)_T$,  $T_1(x_1,y_1,z_1)_T$ and  $T_2(x_2,y_2,z_2)_T$ into an optimization problem.
 \section{Implementation}
 \subsection{Encoded RGBLED Board}
 \subsection{Decoding and Positioning Server}
@@ -692,10 +735,8 @@ Systems: Networking and Services, 2004. MOBIQU1TOUS 2004.
 \bibitem{13, rssi}
 E. Lau, ENHANCED RSSI-BASED HIGH ACCURACY REALTIME USER LOCATION TRACKING SYSTEM FOR INDOOR AND OUTDOOR ENVIRONMENTS International Journal, vol. 1, no. 2, 2008. 
 
-
 \bibitem{14, aoa}
-D. Niculescu ; DATAMAN Lab., Rutgers Univ. Ad hoc positioning system (APS) using AOA, INFOCOM 2003.
-
+Se-Hoon Yang, Hyun-Seung Kim, Three-Dimensional Visible Light Indoor Localization Using AOA and RSS With Multiple Optical Receivers, Journal of Lightwave Technology(Volume:32 ,  Issue:14),2480 - 2485.
 \end{thebibliography}
 
 
