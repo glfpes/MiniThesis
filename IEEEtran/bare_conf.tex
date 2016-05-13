@@ -109,10 +109,10 @@
 % The documentation is contained in the cite.sty file itself.
 
 \usepackage{graphicx}
+\usepackage{stackengine}
 \usepackage{subfigure}
 \usepackage{amsmath,amssymb}
 \usepackage[pdftex,bookmarksnumbered]{hyperref}
-
 
 
 
@@ -826,17 +826,27 @@ After the total image processing, we get a tagged output image as fig.10. The di
 Then first we use the green channel information to locate the positioning beacon source location based on indoor map database. Then as we have gathered all parameters, we can perform the AoA algorithm to locate the user precisely.
 
 \begin{figure}
-	\centering
-	\includegraphics[width=2.0in]{../img.origin/fig10.jpg}
-	\caption{Output after the image processing procedure.}
-	\label{fig_10}
+	\footnotesize
+	\stackunder[5pt]{\includegraphics[width=0.4\columnwidth]{../img.origin/fig10.jpg}}{Fig.10 Output after processing.}%
+	\hspace{1cm}%
+	\stackunder[5pt]{\includegraphics[width=0.4\columnwidth]{../img.origin/fig11.png}}{Fig.11 User Tracker}
+	
 \end{figure}
 
 
 \subsection{\textbf{Smart Phone Tracker}}
-We extend the smartphone app to reach a goal 
+We extend the smartphone app to reach a goal that can \textbf{automatically} track the user and support \textit{Location Based Services} since by the visible light positioning system alone, for each time the user wants to locate him/herself, it would be necessary for him/her to perform a taking-photo action, and it would be impossible for services to locate the user so LBS can not be supported. In order to fulfill this demand, we exploit the smartphone's 3D accelerometer and compass sensors and developed an Android application that can support it. By 3D accelerometer, we can count the user's step length and by the compass, we can record the direction of movement of a user. Combine them and we can determine the user's track as in fig.11.
 
+Modern smartphones are equipped with a 3D accelerometer, it can record the acceleration value of the x, y and z axes. In reality environment, the status of a smartphone would be random in the user's pocket. As in fig.12 [15], it shows a unit cycle of walking behavior with changes in vertical and forward acceleration. So we can always add the three acceleration vectors and find two peaks which are perpendicular to each other, and we can identify the vertical and forward one by the norm of the vector, with the larger one as the forward vector.
 
+In order to find the correct peak from the interference from handshake made accelerator changes, we will record a historical recorded threshold and step frequency as a filter. Only the unconventional peaks can be recorded and analyzed.
+
+We also exploits the compass sensor to record the track orientation of the user. With a pedometer and moving direction, we can track the user at a rough range. As is mentioned in [16], this kind of tracker has an error of 5\% $\sim$ 15\% in direction and 3\% $\sim$ 5\% in pedometer. So we need to introduce a remind mechanism to inform the user using the visible light positioning system
+
+\begin{figure}
+	\footnotesize
+	\stackunder[5pt]{\includegraphics[width=1.0\columnwidth]{../img.origin/fig12.png}}{Fig.12 Walking stages and acceleration pattern.}%
+\end{figure}
 
 \section{\textbf{Performance and Evaluation}}
 
@@ -941,6 +951,10 @@ E. Lau, ENHANCED RSSI-BASED HIGH ACCURACY REALTIME USER LOCATION TRACKING SYSTEM
 
 \bibitem{14, aoa}
 Se-Hoon Yang, Hyun-Seung Kim, Three-Dimensional Visible Light Indoor Localization Using AOA and RSS With Multiple Optical Receivers, Journal of Lightwave Technology(Volume:32 ,  Issue:14),2480 - 2485.
+
+\bibitem{15, pedometer}
+Neil Zhao, Full-Featured Pedometer Design Realized with 3-Axis Digital Accelerometer.
+
 \end{thebibliography}
 
 
