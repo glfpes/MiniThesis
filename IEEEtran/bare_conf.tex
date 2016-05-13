@@ -109,7 +109,9 @@
 % The documentation is contained in the cite.sty file itself.
 
 \usepackage{graphicx}
-\usepackage{amsmath}
+\usepackage{subfigure}
+\usepackage{amsmath,amssymb}
+\usepackage[pdftex,bookmarksnumbered]{hyperref}
 
 
 
@@ -329,13 +331,13 @@
 % affiliations
 \author{\IEEEauthorblockN{Guangtao Xue}
 \IEEEauthorblockA{School of Electrical and\\Computer Engineering\\
-Shanghai Jiaotong Univ.\\
+Shanghai Jiao Tong Univ.\\
 Shanghai, China 200240\\
 Email: xue-gt@cs.sjtu.edu.cn}
 \and
 \IEEEauthorblockN{Guang Yang}
 \IEEEauthorblockA{School of Electrical and\\Computer Engineering\\
-	Shanghai Jiaotong Univ.\\
+	Shanghai Jiao Tong Univ.\\
 	Shanghai, China 200240\\
 	Email: glfpes@sjtu.edu.cn}
 }
@@ -506,16 +508,16 @@ Email: xue-gt@cs.sjtu.edu.cn}
 	We describe our solutions that to address challenges mentioned above by exploiting a FDM coding mechanism to indicate multiple landmarks. After we determine the landmark, we can find a coarse positioning result collected from a digital map. We can introduce Angle of Arrival positioning algorithm to get a precise location as the result. Our prototype implementation demonstrate that our solution can offer an obviously promotion in the number of location landmarks compared to existing VLC based indoor positioning system under similar circumstances.
 \end{abstract}
 
-\section{Introduction}
+\section{\textbf{Introduction}}
 Indoor localization have increasingly significance in modern indoors scenarios since the building cover prevents the availability of GPS satellite positioning signals. We believe that for most mega malls or large airports, a precise and user-friendly positioning system would be mightly valuable since customers or passengers can be lost in a complicated indoors environment. Besides, a mall equipped with a positioning system can deliver guided recommendation of merchandise for customers who walks near it. Location information is also required in the modern wireless sensor network based remote health monitoring systems.
 
 As navigation and recommendation applications must rely on an indoor positioning system, We can figure out that a well designed indoor positioning system must satisfy at least four characteristics: 1)enough precise; 2)user friendly, which means user can attain the positioning results without extra active operations; 3)highly scalable, which means the system can be deployed in multi-layer skyscraper like buildings. 4)least extra hardware deployment, for you cannot prospect users to actively equip with an extra gearing that is essential for your system, and the ideal scene is the only needed equipment is barely the smart phone. However, despite the strong demand, there are no existing systems that can cover the four characteristics listed above.
 
 RF-based indoor localization systems such as RADAR delivers restricted accuracy. Indoors positioning system that rely on hardware such as RFID tags are restricted by the inconvenience and extra cost of hardware deployment. Existing visible light positioning systems as Luxapose have good performance in accuracy and with the only aid of smart phones, but it fails in the situation that it requires user to actively taking a photo and this is obviously inconvenient for user to follow, and besides, it's supported landmarks are strictly related to the performance of camera parameters, and for its experiment platform of Lumia 1020, no more than a hundred landmarks can be identified distinctly since its encoding algorithm is heavily dependent on the exposure time of smart phone camera. In section 2, we will identify these existing indoor positioning systems and try to list their flaws at the environment of actual deployment.
 
-In this paper, we propose a new approach that can provided all the four criteria listed above. We follow the work based on AOA algorithm and rolling shutter effect of smart phone camera proposed by the work of Luxapose, and targeting its defects on encoding mechanism that can only identifies handful landmarks and user-friendly scenarios that need users to actively taking a picture to locate themselves, we give our solutions. In order to make the landmarks that are distinguishable to be scalable, we raised an encoding algorithm based on the idea of frequency domain multiplexing(FDM) by mixing the RGB channels of LEDs to convey adequate messages with a blink frequency of 4000 Hz. We applied manchester codes to our encoding mechanism so that the mixed LED light will be white to human eyes. Users can taking the picture at a high exposure time and low ISO value to exploit the rolling shutter effect, and the stripes on the picture can be processed by FFT knowing its frequency is 4000 Hz, then the mixed of RGB can be detached at Hue-Saturation-Lightness (HSL) space so that we can obtain its encoding message. With the aid of web-based indoor maps, we can locate the user at a relatively close aera. If the user needs centimeter level precision, he/she can take a picture with multiple(no less than three) landmarks(led luminaries) and with the aid of AOA algorithm, the system can provide the result. We propose a scenario that users can obtain similar map experience indoors as outdoors that based on GPS module. In this scenario, we exploit the smart phone 3D acceleration sensor and compass sensor, we can obtain the user's track by software and with history based learning strategy we can remind users to adjust their location by our visible light positioning system to erase the deviation. So in this scenario, the indoor malls need to add a control module to the rgbleds, and the users need to install the smart phone app to work with the server, and all together we can fulfill this indoor positioning scenario.
+In this paper, we propose a new approach that can provided all the four criteria listed above. We follow the work based on AOA algorithm and rolling shutter effect of smart phone camera proposed by the work of Luxapose, and targeting its defects on encoding mechanism that can only identifies handful landmarks and user-friendly scenarios that need users to actively taking a picture to locate themselves, we give our solutions. In order to make the landmarks that are distinguishable to be scalable, we raised an encoding algorithm based on the idea of frequency domain multiplexing(FDM) by mixing the RGB channels of LEDs to convey adequate messages with a blink frequency of 4000 Hz. We applied manchester codes to our encoding mechanism so that the mixed LED light will be white to human eyes. Users can taking the picture at a high exposure time and low ISO value to exploit the rolling shutter effect, and the stripes on the picture can be processed by FFT knowing its frequency is 4000 Hz, then the mixed of RGB can be detached at Hue-Saturation-Lightness (HSL)cylindrical-coordinate so that we can obtain its encoding message. With the aid of web-based indoor maps, we can locate the user at a relatively close aera. If the user needs centimeter level precision, he/she can take a picture with multiple(no less than three) landmarks(led luminaries) and with the aid of AOA algorithm, the system can provide the result. We propose a scenario that users can obtain similar map experience indoors as outdoors that based on GPS module. In this scenario, we exploit the smart phone 3D acceleration sensor and compass sensor, we can obtain the user's track by software and with history based learning strategy we can remind users to adjust their location by our visible light positioning system to erase the deviation. So in this scenario, the indoor malls need to add a control module to the rgbleds, and the users need to install the smart phone app to work with the server, and all together we can fulfill this indoor positioning scenario.
 	
-\section{Background and Motivation}
+\section{\textbf{Background and Motivation}}
 Instantly knowing the location indoors is feasible in several related works. Specifically, there are two types of them: signal based IPS(indoor positioning system) and visible light based IPS. Signal based IPS, includes ultrasonic(US) and infrared(IR), and radio-frequency(RF) signal which may based on radio-frequency identification (RFID), received signal strength (RSS) of RF signals, Bluetooth wireless local area network (WLAN), ultra-wideband (UWB), etc[7]. Visible light based IPS usually exploits visible light with computer vision to work together as a method in IPS. It works with embeded CMOS cameras in smart phones which needs hardly additional facilities and provides fine results.
 	
 	\begin{figure}
@@ -558,7 +560,7 @@ Table 1 is the benchmark comparison between the 5 IPS mentioned above.
 	
 
 
-\section{System Architecture}
+\section{\textbf{System Architectur}e}
 This system consists of RGBLED based visible light beacons, smartphone with camera and a processing server as shown in Fig 2.
 	
 	\begin{figure}
@@ -575,10 +577,10 @@ For each beacon source, it consists of no less than three RGBLED luminaries to s
 For each time the user wants to locate himself/herself, it is necessary to take a picture and post it to the remote server and get the location. Clearly it is not convenient. So we developed an extended smartphone application which works with 3D accelerator sensor and compass sensor which can roughly track the user's locus. The accumulated error can be erased by taking an RGBLED positioning action.
 	
 
-\section{Basic Design}
+\section{\textbf{Basic Design}}
 Our system adpots an RGB mixed visible light as a communication channel to deliver locationing data. The RGBLED luminaries work as the transmitter and the smartphone camera works as the receiver. The encoding section describes how we encode digital map information into light signal with red, green and blue subchannels. The decoding section describes how we recover the message from mixed visible light. The positioning algorithm gives out detailed equations of angle of arrival that how can we measure the location based on all kinds of data we get.
 
-\subsection{Encoding}
+\subsection{\textbf{Encoding}}
 We deploy five RGBLED luminaries with their relative geometry known to provide redundancy in case some of them cannot be decoded. In fact under ideal circumstances three RGBLED luminaries will make the system locate the user's 3D location [14]. In other systems such as Luxapose [1] which exploits frequency as the method to distinguish different beacons, the major problem in practice is that it would need enough large barrier between the different frequencies so that the different stripes from rolling shutter effect could be distinguishable against the error casued by the photoing procedure. 
 We introduce a novel encoding schema based on RGBLED with the method of frequency-domain multiplexing. By encoding different messages distinctly on red, green and blue channel with manchester coding which has a duty ratio of 50\% at a high frequency such as 4000Hz in our experiment, the beam radiates as white to human eyes which means this light can be used as normal illumination indoors.
 
@@ -591,14 +593,14 @@ The three channels work at a same frequency. We select the red channel as the cl
 		\label{fig_3}
 	\end{figure}
 
-\subsection{Decoding}
+\subsection{\textbf{Decoding}}
 First we need to find the centroid and size of each led spot on the rolling shutter image taken by the smartphone camera. The method is an image processing pipeline. First we need to rotate the picture to a standard manner since people take pictures in different angles. Then we convert the image to grayscale and we apply blur to it. After that we exploits a OTSU filter to find the edges of different spots on the image. We locates contours for different spots, and get the centroid by its circumcircle. With the centroid got, we know the spot maps to where on the image, and with the mask by the contour, we can respectively get each light spot for further processing. 
 
 We need to calculate the encoding frequency with the help of rolling shutter effect. We can compress the image subregion of light spot vertical to the rolling shutter stripes, and outcome a vector and take an FFT of it. By this way we can convert the time-domain stripes into frequency-domain result with an error less than 200Hz. By declaring that the transmit frequency be interger multiplies of five hundred, we can enlarge the channel up to $n/1000$ times with $n$ stands for the reciprocal of exposure time parameter of smartphone camera, about 1/10000 second up to normal phones. For a smartphone with a camera of 1/10000 second exposure time, the expanding multiples of encoding channel is 10.  
 
-In our encoding schema, for each timeslice, we can get a RGB value in one of the eight circumstances of {\#000000, \#0000ff, \#00ff00, \#00ffff, \#ff0000, \#ff00ff, \#ffff00, \#ffffff,}. The control unit can make it sure that each signal is strictly aligned in each timeslice. So the main idea is masking pure red to get timeslice gaps, and with the help of timeslice gaps, we use green and blue masks respectively to gain raw encoding information. 
+In our encoding schema, for each timeslice, we can get a RGB value in one of the eight circumstances of {\#000000, \#0000FF, \#00FF00, \#00FFFFF, \#FF0000, \#FF00FF, \#FFFF00, \#FFFFFF,}. The control unit can make it sure that each signal is strictly aligned in each timeslice. So the main idea is masking pure red to get timeslice gaps, and with the help of timeslice gaps, we use green and blue masks respectively to gain raw encoding information. 
 
-\subsection{Positioning Algorithm}
+\subsection{\textbf{Positioning Algorithm}}
 By decoding the green channel with the aid from server end digital map data, we can roughly locate ourselves around one certain beacon source. We adopt the arrival of angle algorithm to obtain precious positioning results. With a well-token image which means at least three distinct RGBLED luminaries can be decodable, we can determine the 3D position of the camera with respect to the beacon source.
 
 	\begin{figure}
@@ -616,6 +618,7 @@ As shown in Fig.4, the RGBLED luminary locate at point $T_0(x_0,y_0,z_0)_T$, thi
 	&	w_0 = K_0 \times Z_f
 	\end{split}
 	\end{equation}
+	
 Here $K_0$ is an unknown. Obvirously, the goal is to calculate $T_0(u_0,v_0,w_0)$. We have three pairs of this equation for three LED luminaries. And we know the location of $T_0(x_0,y_0,z_0)_T$,  $T_1(x_1,y_1,z_1)_T$ and  $T_2(x_2,y_2,z_2)_T$. Since we know the precise deploying location of $T_0$, $T_1$ and $T_2$, we can thus obtain the precise location of the user.
 
 We define $d_0$ as the distance between $T_0$ and $T_1$, we can get the equation below:
@@ -626,15 +629,216 @@ We define $d_0$ as the distance between $T_0$ and $T_1$, we can get the equation
 		& \quad   =K_0^2[\vec{O_{l_0}}]^2 + K_1^2[\vec{O_{l_1}}]^2 - 2K_0K_1(\vec{O_{l_0}}\vec{O_{l_1}})
 	\end{split}
 	\end{equation}
+	
 Here $\vec{O_{l_0}}$ and $\vec{O_{l_1}}$ stand for a vector begin from the center of convex lens and end at $i_0(a_0, b_0, Z_f)_R$ and $i_1(a_1, b_1, Z_f)_R$. $K_0$ and $K_1$ are unknown to us. This is only two of the three LEDs, and by exploiting all three LEDs we can get a ternary quadratic group which means we can solve $K_0$, $K_1$ and $K_2$ out. With $K_0$, we can get the location of C with the help of equation[2]. Similarly we can get $T_1(u_1,v_1,w_1)$ and $T_2(u_2,v_2,w_2)$. 
 
-However, this is an ideal scenario. Actually, the procedure when we locate the spot on image to get the $i_0(a_0, b_0, Z_f)_R$, we may generate cumullative errors. In order to reduce the errors, we transform the known coordinates of $T_0(x_0,y_0,z_0)_T$,  $T_1(x_1,y_1,z_1)_T$ and  $T_2(x_2,y_2,z_2)_T$ into an optimization problem.
-\section{Implementation}
-\subsection{Encoded RGBLED Board}
-\subsection{Decoding and Positioning Server}
-\subsection{Smart Phone Tracker}
 
-\section{Performance and Evaluation}
+However, this is an ideal scenario. Actually, the procedure when we locate the spot on image to get the $i_0(a_0, b_0, Z_f)_R$, we may generate cumullative errors. In order to reduce the errors, we transform the known coordinates of $T_0(x_0,y_0,z_0)_T$,  $T_1(x_1,y_1,z_1)_T$ and  $T_2(x_2,y_2,z_2)_T$ into an optimization problem. We will seek the minimum square error by a series quantization of parameters as in equation 4. Here N stands for the total number of distinct RGBLED luminaries, so if we deploy N LEDs on one beacon source, we get $\binom{N}{2}$ equations.
+	\begin{equation}
+	\begin{split}
+	& \sum_{m=1}^{N-1}\sum_{n=m+1}^{N}\{K_m^2[\vec{O_{l_0}}]^2 + K_n^2[\vec{O_{l_1}}]^2 \\
+	& - 2K_mK_n([\vec{O_{l_m}}][\vec{O_{l_n}}]) -d^2_{mn} \}^2
+	\end{split}
+	\end{equation}
+	
+As long as all quantized parameters are estimated, the locations of light sources in the camera receiver coordination are fixed. Then the position of the receiver against the beacon source can be transformed as equation 5 below.
+	\begin{equation}
+	\begin{bmatrix}
+	x_0 & x_1 & ... & x_{N-1} \\
+	y_0 & y_1 & ... & y_{N-1} \\
+	z_0 & z_1 & ... & z_{N-1}
+	\end{bmatrix}
+	=R \times 
+	\begin{bmatrix}
+	u_0 & u_1 & ... & u_{N-1} \\
+	v_0 & v_1 & ... & v_{N-1} \\
+	w_0 & w_1 & ... & w_{N-1}
+	\end{bmatrix} + T
+	\end{equation}
+	
+Here $R$ is a $3 \times 3$ rotation matrix, $T$ is a $3 \times 1$ transfer matrix. The vector $T(T_x,T_y,T_z)_T$ stands for the coordinate of camera signal receiver in the coordination of LED luminaries. With the quantized parameters known, and the relative coordination between the LED signal transmitter and camera receiver is fixed, we can get the coordinate of camera signal receiver at the coordination of LED luminaries as shown in equation 6 below:
+\begin{equation}
+\begin{split}
+& (T_x-x_m)^2 + (T_y-y_m)^2 + (T_z-z_m)^2 \\
+& =K_m^2(a_m^2+b_m^2+Z_f^2)
+\end{split}
+\end{equation}
+ 
+Here $(x_m,y_m,z_m)$ is the $m$th light source's coordinate on the coordination of beacon source, $(a_m, b_m)$ is the coordinate of the corresponding light spot on the camera film coordination. We will give a prediction of vector $T(T_x,T_y,T_z)_T$ to minimize the value of equation 7 below:
+\begin{equation}
+\begin{split}
+	& \sum_{m=1}^N\{(T_x-x_m)^2 + (T_y-y_m)^2 + (T_z-z_m)^2 \\
+	& - K_m^2(a_m^2+b_m^2+Z_f^2)\}^2
+\end{split}
+\end{equation}
+
+As long as we determine transfer vector $T(T_x,T_y,T_z)_T$, we can identify each unknown in rotation matrix $R$ as:
+\begin{equation}
+	R = [\vec{r_1}, \vec{r_2}, \vec{r_3}]
+\end{equation}
+
+\section{\textbf{Implementation}}
+We implement a prototype system in order to check the performance of our system. And we develop one additional Android application to enrich the scenario in actual circumstances by exploiting its 3D accelerometer and compass sensors to record the user's track. So the final scenario is the user can track him/herself with the aid of smartphone apps, and eliminate the accumulated error at the prompt of the app by analysis of historical record with high accuracy visible light positioning. This is because using visible light positioning alone requires the user to actively take an image of one positioning beacon source. This is inconvenient if a user want to locate him/herself as long as he/she is indoors, and many potential applications such as automatic recommendation of merchants by location infomation would be inaccessible. 
+
+\subsection{\textbf{Encoded RGBLED Board}}
+We build one beacon source using a square plexiglass board as a carrier plane for five distinct RGBLED luminaries. As is shown in fig.5\_a, the luminaries are set at the four corners and the center of the square board. We attached one Arduino Due board at the back side and programmed our encoding into it as the controller.
+
+For each distinct RGBLED transmitter, we put it horizonly at the bottom of a lamp tube with a piece of frosted glass cover the tube in order to scattering the transmitting light into soft light. 
+
+The amplifier circuit is designed as in fig.5\_b. In fig.5\_b, it presents an amplifier circuit for one channel of a single RGBLED. We exploit the S9013 NPN transistor to work as a micro relay from the 3.3V encoding circuit and the 24V DC power supply. The controlling signal varies at a 4000Hz frequency, when the signal is high, the transistor works as wire and the RGBLED is bright, and when the signal is low the transistor is disconnect so the RGBLED would be dark.
+
+The encoding controller is the output of one digital port of Arduino Due board, and we extend 15 outputs from a single board to control $5 \times 3$ channel signals with our encoding schema in section 4.1.
+
+We use the Nokia Lumia 1020 smartphone with Nokia Camera Explorer to take photos. It has a high resolution of 7712 $\times$ 5360 pixels. With known locations of camera and the positioning system set, we take an experiment and get the $Z_f$ parameter as 5470 pixels.
+
+\begin{figure} \centering
+	\subfigure[Positioning Beacon Source board.] {
+		\label{fig5.a}
+		\includegraphics[width=0.4\columnwidth]{../img.origin/fig5_a.png}
+		}
+	\subfigure[Amplifier circuit.] {
+		\label{fig5.b}
+		\includegraphics[width=0.4\columnwidth]{../img.origin/fig5_b.png}
+		}
+	\caption{Hardware implementation}
+\end{figure}
+
+
+
+
+\subsection{\textbf{Decoding and Positioning Server}}
+As the image processing procedure would be executed with high overhead, we perform the processing procedure in the server by a restful operation of posting the image to the server and take back the location results. The server is responsible for decoding and calculating the AoA algorithm. In order to decode the image, we should first find the pixel location of the light spots on the image as described in section 4.2. 
+\subsubsection{\textbf{Locating light spot on image}} \ 
+
+The process can be diveded into a series of specific operations as shown in fig.6.
+	\begin{figure}
+		\centering
+		\includegraphics[width=3.5in]{../img.origin/fig6.pdf}
+		\caption{Pipeline to locate spots.}
+		\label{fig_6}
+	\end{figure}
+We use C++ based OpenCV 2.4.11 to perform such processings. The processing pipeline takes 3 seconds to perform one entire process  and can undertake at least 20 concurrently on a server with a CPU of Intel i5-5200U and 8G memory.  
+After we take a rolling shutter picture, we get an image like fig.7\_1. \
+
+In order to locate the light spot, first we transfer the origin image into \textbf{grayscale}. Since the average grayscale value of light spot area significantly differs from dark regions, we can have an accurate recognition of the light spots on the image. Since we have performed high frequency and thus results in rolling shutter effect, the light spot are composed of disconnected stripes rather than a continous light spot. In order to locate the centroid of the spot, we need to blur it into a continous region. We perform a \textbf{Gaussian Blur}, that is the pixel value after the blur process is the average of a circle region area before the process, and we get a blurred image like fig.7\_c. We need to find a mask board that can identify these light spots individually, so we perform a \textbf{OTSU filter} to find the threshold and generates a mask like fig.7\_d. The threshold is set to 0.5, and those pixels with a grayscale value smaller than 0.5 will be replaced by 0, with those bigger than 0.5 be replaced by 1.0 grayscale as the white part in fig.7\_d. \ 
+
+We will use the grayscale border to construct the \textbf{contour} for each light spot as in fig.7\_e. In order to perform the AoA algorithm we need to know the coordinate of each light spot on image. We find the circumscribed circle for each contour, and adopt its \textbf{centeroid} as the coordinate.
+
+\begin{figure} \centering
+	\subfigure[Original image.] {
+		\label{fig7.a}
+		\includegraphics[width=0.25\columnwidth]{../img.origin/fig7/1.jpg}
+	} 
+	\subfigure[Gray into single channel.] {
+		\label{fig7.b}
+		\includegraphics[width=0.25\columnwidth]{../img.origin/fig7/2.jpg}
+	}
+	\subfigure[Blur to find rough location] {
+		\label{fig7.c}
+		\includegraphics[width=0.25\columnwidth]{../img.origin/fig7/3.jpg}
+	}
+	\subfigure[Get spots' location mask.] {
+		\label{fig7.d}
+		\includegraphics[width=0.25\columnwidth]{../img.origin/fig7/4.jpg}
+	}
+	\subfigure[Find contours] {
+		\label{fig7.e}
+		\includegraphics[width=0.25\columnwidth]{../img.origin/fig7/5.jpg}
+	}
+	\subfigure[Plot the circumscibed circle] {
+		\label{fig7.f}
+		\includegraphics[width=0.25\columnwidth]{../img.origin/fig7/6.jpg}
+	}
+	\caption{Locating spot on image}
+\end{figure}
+
+
+
+\subsubsection{\textbf{Decode the infomation}} \ 
+
+We decode the information hidden in the rolling shutter effect in order to find the Green channel information of where the positioning beacon source locates indoors, and with the Blue channel to match a light spot with the corresponding RGBLED luminary on the board so as to perform the AoA algorithm afterwards.
+
+Ideally, the encoding information should have only the difference on the Hue axis of the HSL cylindrical-coordinate with same Saturation and Lightness. However, in the taking picture process, other light source may introduce error on the token picture that results in errors on saturation and lightness. Suppose a pixel $p(r,g,b)$ with $r$,$g$,$b$ $\in [0,1]$, and $max$ is the biggest one among $r,g,b$, $min$ is the smallest one among $r,g,b$. We prform a conversion from RGB space to HSL space, and separate the HSL channels as in fig.8 as in the equation 9$\sim$11 below: 
+
+\begin{figure} \centering
+	\subfigure[Hue channel.] {
+		\label{fig8.a}
+		\includegraphics[width=0.25\columnwidth]{../img.origin/fig8/1.jpg}
+	}
+	\subfigure[Saturation channel.] {
+		\label{fig8.b}
+		\includegraphics[width=0.25\columnwidth]{../img.origin/fig8/2.jpg}
+	}
+	\subfigure[Lightness channel] {
+		\label{fig8.c}
+		\includegraphics[width=0.25\columnwidth]{../img.origin/fig8/3.jpg}
+	}
+	\caption{One spot on HSL cylindrical-coordinate}
+\end{figure}
+
+\begin{equation}
+	\begin{split}
+	h=
+		\begin{cases}
+		 0^{\circ}  &if \quad max = min\\
+		 60^{\circ} \times \frac{g-b}{max-min} + 0^{\circ} &if \quad max = r \quad and \quad g \ge b \\
+		 60^{\circ} \times \frac{g-b}{max-min} + 360^{\circ} &if \quad max = r \quad and \quad g < b \\
+		 60^{\circ} \times \frac{b-r}{max-min} + 120^{\circ} &if \quad max = g \\
+		 60^{\circ} \times \frac{r-g}{max-min} + 240^{\circ} &if \quad max = b 
+		\end{cases}	
+	\end{split}
+\end{equation}	
+
+\begin{equation}
+\begin{split}
+	s = 
+		\begin{cases}
+		0 &if \quad l = 0 \quad or \quad max = min\\
+		\frac{max-min}{max+min}=\frac{max-min}{2l} &if \quad 0<l<\frac{1}{2}
+		\end{cases}	
+	\end{split}
+\end{equation}
+
+\begin{equation}
+\begin{split}
+	l=\frac{1}{2}(max+min)
+\end{split}
+\end{equation}
+
+Here $h \in [0,360)$, $s, l \in [0,1]$. Since for each stripe, it stands for the state of one RGBLED at a certain time. In order to get stable encoding transmission, we compress the three images of H,S,L into row vectors to cut down errors. By this operation, we can locate the most close Hue, Saturation and Lightness and the performance is nearly 15\% percent better than just compress them in RGB space since by that way the ambient light can cause effect on Hue, which would raise error since our encoding is purely Hue based.
+
+After the process of cutting down errors, we restore the HSL image back to RGB space, and at this time it shows like the bottom row of the four rows in fig.9\_b compare to fig.9\_a before this process. We perform a red mask to get the red  clock channel, and with clock information and green, blue masks, we recover the RGB three channel encodings as the top three rows in fig.9\_b.
+
+\begin{figure} \centering
+	\subfigure[Original image.] {
+		\label{fig9.a}
+		\includegraphics[width=0.4\columnwidth]{../img.origin/fig9/1.jpg}
+	}
+	\subfigure[RGB channel decodes.] {
+		\label{fig9.b}
+		\includegraphics[width=0.4\columnwidth]{../img.origin/fig9/2.jpg}
+	}
+	\caption{Retrieve RGB infomation from one spot}
+\end{figure}
+
+After the total image processing, we get a tagged output image as fig.10. The digit on each light spot shows the corresponding relationship between the light spot on image and the specific RGBLED luminary on the positioning beacon board shown at fig.2. 
+
+Then first we use the green channel information to locate the positioning beacon source location based on indoor map database. Then as we have gathered all parameters, we can perform the AoA algorithm to locate the user precisely.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=2.0in]{../img.origin/fig10.jpg}
+	\caption{Output after the image processing procedure.}
+	\label{fig_10}
+\end{figure}
+
+
+\subsection{\textbf{Smart Phone Tracker}}
+We extend the smartphone app to reach a goal 
+
+
+
+\section{\textbf{Performance and Evaluation}}
 
 
 
