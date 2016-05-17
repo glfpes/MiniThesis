@@ -1,15 +1,15 @@
-\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
-\BOOKMARK [1][-]{section.2}{Background and Motivation}{}% 2
-\BOOKMARK [1][-]{section.3}{System Architecture}{}% 3
-\BOOKMARK [1][-]{section.4}{Basic Design}{}% 4
-\BOOKMARK [2][-]{subsection.4.1}{Encoding}{section.4}% 5
-\BOOKMARK [2][-]{subsection.4.2}{Decoding}{section.4}% 6
-\BOOKMARK [2][-]{subsection.4.3}{Positioning Algorithm}{section.4}% 7
-\BOOKMARK [1][-]{section.5}{Implementation}{}% 8
-\BOOKMARK [2][-]{subsection.5.1}{Encoded RGBLED Board}{section.5}% 9
-\BOOKMARK [2][-]{subsection.5.2}{Decoding and Positioning Server}{section.5}% 10
-\BOOKMARK [3][-]{subsubsection.5.2.1}{Locating light spot on image}{subsection.5.2}% 11
-\BOOKMARK [3][-]{subsubsection.5.2.2}{Decode the infomation}{subsection.5.2}% 12
-\BOOKMARK [2][-]{subsection.5.3}{Smart Phone Tracker}{section.5}% 13
-\BOOKMARK [1][-]{section.6}{Performance and Evaluation}{}% 14
+\BOOKMARK [1][-]{section.1}{I Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{II Background and Motivation}{}% 2
+\BOOKMARK [1][-]{section.3}{III System Architecture}{}% 3
+\BOOKMARK [1][-]{section.4}{IV Basic Design}{}% 4
+\BOOKMARK [2][-]{subsection.4.1}{IV-A Encoding}{section.4}% 5
+\BOOKMARK [2][-]{subsection.4.2}{IV-B Decoding}{section.4}% 6
+\BOOKMARK [2][-]{subsection.4.3}{IV-C Positioning Algorithm}{section.4}% 7
+\BOOKMARK [1][-]{section.5}{V Implementation}{}% 8
+\BOOKMARK [2][-]{subsection.5.1}{V-A Encoded RGBLED Board}{section.5}% 9
+\BOOKMARK [2][-]{subsection.5.2}{V-B Decoding and Positioning Server}{section.5}% 10
+\BOOKMARK [3][-]{subsubsection.5.2.1}{V-B1 Locating light spot on image}{subsection.5.2}% 11
+\BOOKMARK [3][-]{subsubsection.5.2.2}{V-B2 Decode the infomation}{subsection.5.2}% 12
+\BOOKMARK [2][-]{subsection.5.3}{V-C Smart Phone Tracker}{section.5}% 13
+\BOOKMARK [1][-]{section.6}{VI Performance and Evaluation}{}% 14
 \BOOKMARK [1][-]{section*.1}{References}{}% 15

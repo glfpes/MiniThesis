@@ -839,17 +839,22 @@ We extend the smartphone app to reach a goal that can \textbf{automatically} tra
 
 Modern smartphones are equipped with a 3D accelerometer, it can record the acceleration value of the x, y and z axes. In reality environment, the status of a smartphone would be random in the user's pocket. As in fig.12 [15], it shows a unit cycle of walking behavior with changes in vertical and forward acceleration. So we can always add the three acceleration vectors and find two peaks which are perpendicular to each other, and we can identify the vertical and forward one by the norm of the vector, with the larger one as the forward vector.
 
-In order to find the correct peak from the interference from handshake made accelerator changes, we will record a historical recorded threshold and step frequency as a filter. Only the unconventional peaks can be recorded and analyzed.
+In order to find the correct peak from the interference of handshake made accelerator changes, we will record a historical recorded threshold and step frequency as a filter. Only the unconventional peaks can be recorded and analyzed.
 
-We also exploits the compass sensor to record the track orientation of the user. With a pedometer and moving direction, we can track the user at a rough range. As is mentioned in [16], this kind of tracker has an error of 5\% $\sim$ 15\% in direction and 3\% $\sim$ 5\% in pedometer. So we need to introduce a remind mechanism to inform the user using the visible light positioning system
-
+We also exploits the compass sensor to record the track orientation of the user. With a pedometer and moving direction, we can track the user at a rough range. As is mentioned in [16], this kind of tracker has an error of 5\% $\sim$ 15\% in direction and 3\% $\sim$ 5\% in pedometer. So we need to introduce a remind mechanism to inform the user using visible light positioning system to erase the accumulated error. Based on the historical dataset, users are recommended to take a picture and carry out a visible light positioning to make sure the deviation within an acceptable range set by the user.
 \begin{figure}
 	\footnotesize
 	\stackunder[5pt]{\includegraphics[width=1.0\columnwidth]{../img.origin/fig12.png}}{Fig.12 Walking stages and acceleration pattern.}%
 \end{figure}
 
 \section{\textbf{Performance and Evaluation}}
+%distance : accuracy
+%lightness
+%angle
+%frequency
+%smartphone camera parameter 
 
+We deploy our experiment motherboard in a grid divided $10m \times 10m$ office room, and the board is a $1m \times 1m$ square. We performed the experiment to measure the accuracy quota under different distance, ambient brightness and twinkling frequency of the encoding transmitter.
 
 
 
