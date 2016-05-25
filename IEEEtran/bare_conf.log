@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.5.16)  25 MAY 2016 15:49
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.5.16)  25 MAY 2016 15:58
 entering extended mode
 **bare_conf.tex
-(C:\Users\yangguang_sx\Github2\MiniThesis\IEEEtran\bare_conf.tex
+(C:\Users\yangguang_sx\Github\MiniThesis\IEEEtran\bare_conf.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for loaded.
-(C:\Users\yangguang_sx\Github2\MiniThesis\IEEEtran\IEEEtran.cls
+(C:\Users\yangguang_sx\Github\MiniThesis\IEEEtran\IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
@@ -111,7 +111,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \IEEEPARstartletwidth=\dimen125
 \c@IEEEbiography=\count93
 \@IEEEtranrubishbin=\box27
-) (C:\Users\yangguang_sx\Github2\MiniThesis\IEEEtran\stackengine.sty
+) (C:\Users\yangguang_sx\Github\MiniThesis\IEEEtran\stackengine.sty
 Package: stackengine 2014/01/06 v3.24\ Stacking text and objects in convenient 
 ways
 
@@ -377,7 +377,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip60
 )
-(C:\Users\yangguang_sx\Github2\MiniThesis\IEEEtran\bare_conf.aux)
+(C:\Users\yangguang_sx\Github\MiniThesis\IEEEtran\bare_conf.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 318.
 LaTeX Font Info:    ... okay on input line 318.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 318.
@@ -422,8 +422,8 @@ LaTeX Info: Redefining \ref on input line 318.
 LaTeX Info: Redefining \pageref on input line 318.
 LaTeX Info: Redefining \nameref on input line 318.
 
-(C:\Users\yangguang_sx\Github2\MiniThesis\IEEEtran\bare_conf.out)
-(C:\Users\yangguang_sx\Github2\MiniThesis\IEEEtran\bare_conf.out)
+(C:\Users\yangguang_sx\Github\MiniThesis\IEEEtran\bare_conf.out)
+(C:\Users\yangguang_sx\Github\MiniThesis\IEEEtran\bare_conf.out)
 \@outlinefile=\write3
 LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 511.
@@ -474,8 +474,8 @@ Missing character: There is no ù in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
- [2 <C:/Users/yangguang_sx/Github2/MiniThesis/img.origin/fig1.pdf, page is rota
-ted 90 degrees>]
+ [2 <C:/Users/yangguang_sx/Github/MiniThesis/img.origin/fig1.pdf, page is rotat
+ed 90 degrees>]
 <../img.origin/fig2.pdf, id=112, 534.02846pt x 561.39154pt>
 File: ../img.origin/fig2.pdf Graphic file (type pdf)
 
@@ -487,8 +487,8 @@ Overfull \hbox (0.94499pt too wide) in paragraph at lines 568--569
  [][] 
  []
 
-[3 <C:/Users/yangguang_sx/Github2/MiniThesis/img.origin/fig2.pdf, page is rotat
-ed 90 degrees>] <../img.origin/fig3.jpg, id=132, 421.575pt x 316.18124pt>
+[3 <C:/Users/yangguang_sx/Github/MiniThesis/img.origin/fig2.pdf, page is rotate
+d 90 degrees>] <../img.origin/fig3.jpg, id=132, 421.575pt x 316.18124pt>
 File: ../img.origin/fig3.jpg Graphic file (type jpg)
 
 <use ../img.origin/fig3.jpg>
@@ -510,8 +510,8 @@ Overfull \hbox (0.94499pt too wide) in paragraph at lines 608--609
  [][] 
  []
 
-[4 <C:/Users/yangguang_sx/Github2/MiniThesis/img.origin/fig3.jpg> <C:/Users/yan
-gguang_sx/Github2/MiniThesis/img.origin/fig4.png>]
+[4 <C:/Users/yangguang_sx/Github/MiniThesis/img.origin/fig3.jpg> <C:/Users/yang
+guang_sx/Github/MiniThesis/img.origin/fig4.png>]
 Overfull \hbox (1.83781pt too wide) in paragraph at lines 631--631
 [] 
  []
@@ -611,14 +611,14 @@ Overfull \hbox (1.87746pt too wide) in paragraph at lines 790--790
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6 <C:/Users/yangguang_sx/Github2/MiniThesis/img.origin/fig5_a.png> <C:/Users/
-yangguang_sx/Github2/MiniThesis/img.origin/fig5_b.png> <C:/Users/yangguang_sx/G
-ithub2/MiniThesis/img.origin/fig6.pdf, page is rotated 90 degrees> <C:/Users/ya
-ngguang_sx/Github2/MiniThesis/img.origin/fig7/1.jpg> <C:/Users/yangguang_sx/Git
-hub2/MiniThesis/img.origin/fig7/2.jpg> <C:/Users/yangguang_sx/Github2/MiniThesi
-s/img.origin/fig7/3.jpg> <C:/Users/yangguang_sx/Github2/MiniThesis/img.origin/f
-ig7/4.jpg> <C:/Users/yangguang_sx/Github2/MiniThesis/img.origin/fig7/5.jpg> <C:
-/Users/yangguang_sx/Github2/MiniThesis/img.origin/fig7/6.jpg>]
+ [6 <C:/Users/yangguang_sx/Github/MiniThesis/img.origin/fig5_a.png> <C:/Users/y
+angguang_sx/Github/MiniThesis/img.origin/fig5_b.png> <C:/Users/yangguang_sx/Git
+hub/MiniThesis/img.origin/fig6.pdf, page is rotated 90 degrees> <C:/Users/yangg
+uang_sx/Github/MiniThesis/img.origin/fig7/1.jpg> <C:/Users/yangguang_sx/Github/
+MiniThesis/img.origin/fig7/2.jpg> <C:/Users/yangguang_sx/Github/MiniThesis/img.
+origin/fig7/3.jpg> <C:/Users/yangguang_sx/Github/MiniThesis/img.origin/fig7/4.j
+pg> <C:/Users/yangguang_sx/Github/MiniThesis/img.origin/fig7/5.jpg> <C:/Users/y
+angguang_sx/Github/MiniThesis/img.origin/fig7/6.jpg>]
 <../img.origin/fig9/1.jpg, id=215, 347.04657pt x 347.79938pt>
 File: ../img.origin/fig9/1.jpg Graphic file (type jpg)
 
@@ -665,12 +665,12 @@ File: ../img.origin/fig12.pdf Graphic file (type pdf)
  <use ../img.origin/fig12.pdf>
 Package pdftex.def Info: ../img.origin/fig12.pdf used on input line 847.
 (pdftex.def)             Requested size: 252.0pt x 88.89653pt.
- [7 <C:/Users/yangguang_sx/Github2/MiniThesis/img.origin/fig8/1.jpg> <C:/Users/
-yangguang_sx/Github2/MiniThesis/img.origin/fig8/2.jpg> <C:/Users/yangguang_sx/G
-ithub2/MiniThesis/img.origin/fig8/3.jpg> <C:/Users/yangguang_sx/Github2/MiniThe
-sis/img.origin/fig9/1.jpg> <C:/Users/yangguang_sx/Github2/MiniThesis/img.origin
-/fig9/2.jpg> <C:/Users/yangguang_sx/Github2/MiniThesis/img.origin/fig10.jpg> <C
-:/Users/yangguang_sx/Github2/MiniThesis/img.origin/fig11.png>]
+ [7 <C:/Users/yangguang_sx/Github/MiniThesis/img.origin/fig8/1.jpg> <C:/Users/y
+angguang_sx/Github/MiniThesis/img.origin/fig8/2.jpg> <C:/Users/yangguang_sx/Git
+hub/MiniThesis/img.origin/fig8/3.jpg> <C:/Users/yangguang_sx/Github/MiniThesis/
+img.origin/fig9/1.jpg> <C:/Users/yangguang_sx/Github/MiniThesis/img.origin/fig9
+/2.jpg> <C:/Users/yangguang_sx/Github/MiniThesis/img.origin/fig10.jpg> <C:/User
+s/yangguang_sx/Github/MiniThesis/img.origin/fig11.png>]
 <../img.origin/fig13_distance.pdf, id=236, 387.30898pt x 306.44287pt>
 File: ../img.origin/fig13_distance.pdf Graphic file (type pdf)
 
@@ -706,8 +706,8 @@ File: ../img.origin/fig13_light.pdf Graphic file (type pdf)
 Package pdftex.def Info: ../img.origin/fig13_light.pdf used on input line 884.
 (pdftex.def)             Requested size: 252.0pt x 199.38655pt.
 
-[8 <C:/Users/yangguang_sx/Github2/MiniThesis/img.origin/fig12.pdf> <C:/Users/ya
-ngguang_sx/Github2/MiniThesis/img.origin/fig13_distance.pdf>]
+[8 <C:/Users/yangguang_sx/Github/MiniThesis/img.origin/fig12.pdf> <C:/Users/yan
+gguang_sx/Github/MiniThesis/img.origin/fig13_distance.pdf>]
 <../img.origin/fig13_frequency.pdf, id=290, 387.30898pt x 306.44287pt>
 File: ../img.origin/fig13_frequency.pdf Graphic file (type pdf)
 
@@ -733,9 +733,9 @@ Missing character: There is no ô in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ì in font ptmr7t!
- [9 <C:/Users/yangguang_sx/Github2/MiniThesis/img.origin/fig13_angle.pdf> <C:/U
-sers/yangguang_sx/Github2/MiniThesis/img.origin/fig13_light.pdf> <C:/Users/yang
-guang_sx/Github2/MiniThesis/img.origin/fig13_frequency.pdf>]
+ [9 <C:/Users/yangguang_sx/Github/MiniThesis/img.origin/fig13_angle.pdf> <C:/Us
+ers/yangguang_sx/Github/MiniThesis/img.origin/fig13_light.pdf> <C:/Users/yanggu
+ang_sx/Github/MiniThesis/img.origin/fig13_frequency.pdf>]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -752,7 +752,7 @@ Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1006.
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 1006.
- (C:\Users\yangguang_sx\Github2\MiniThesis\IEEEtran\bare_conf.aux)
+ (C:\Users\yangguang_sx\Github\MiniThesis\IEEEtran\bare_conf.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1006.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1006.
 
@@ -761,7 +761,7 @@ Package rerunfilecheck Info: File `bare_conf.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  7459 strings out of 495354
- 110718 string characters out of 3183411
+ 110703 string characters out of 3183411
  219343 words of memory out of 3000000
  10446 multiletter control sequences out of 15000+200000
  45713 words of font info for 90 fonts, out of 3000000 for 9000
@@ -779,7 +779,7 @@ m/cmsy7.pfb><D:/develop/CTEX/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><D:/develo
 p/CTEX/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><D:/develop/CTEX/MiKTeX/fonts/t
 ype1/urw/times/utmr8a.pfb><D:/develop/CTEX/MiKTeX/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on bare_conf.pdf (10 pages, 1159403 bytes).
+Output written on bare_conf.pdf (10 pages, 1159395 bytes).
 PDF statistics:
  385 PDF objects out of 1000 (max. 8388607)
  79 named destinations out of 1000 (max. 500000)
