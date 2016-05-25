@@ -108,8 +108,8 @@
 % http://www.ctan.org/pkg/cite
 % The documentation is contained in the cite.sty file itself.
 
-\usepackage{graphicx}
 \usepackage{stackengine}
+\usepackage{graphicx}
 \usepackage{subfigure}
 \usepackage{amsmath,amssymb}
 \usepackage[pdftex,bookmarksnumbered]{hyperref}
@@ -837,14 +837,14 @@ Then first we use the green channel information to locate the positioning beacon
 \subsection{\textbf{Smart Phone Tracker}}
 We extend the smartphone app to reach a goal that can \textbf{automatically} track the user and support \textit{Location Based Services} since by the visible light positioning system alone, for each time the user wants to locate him/herself, it would be necessary for him/her to perform a taking-photo action, and it would be impossible for services to locate the user so LBS can not be supported. In order to fulfill this demand, we exploit the smartphone's 3D accelerometer and compass sensors and developed an Android application that can support it. By 3D accelerometer, we can count the user's step length and by the compass, we can record the direction of movement of a user. Combine them and we can determine the user's track as in fig.11.
 
-Modern smartphones are equipped with a 3D accelerometer, it can record the acceleration value of the x, y and z axes. In reality environment, the status of a smartphone would be random in the user's pocket. As in fig.12 [15], it shows a unit cycle of walking behavior with changes in vertical and forward acceleration. So we can always add the three acceleration vectors and find two peaks which are perpendicular to each other, and we can identify the vertical and forward one by the norm of the vector, with the larger one as the forward vector.
+Modern smartphones are equipped with a 3D accelerometer, it can record the acceleration value of the x, y and z axes. In reality environment, the status of a smartphone would be random in the user's pocket. As in fig.12, it shows a unit cycle of walking behavior with changes in vertical and horizontal acceleration. So we can always sum the three acceleration vectors and find two peaks which are perpendicular to each other, and we can identify the vertical and horizontal one by the norm of the vector, with the larger one as the forward vector.
 
 In order to find the correct peak from the interference of handshake made accelerator changes, we will record a historical recorded threshold and step frequency as a filter. Only the unconventional peaks can be recorded and analyzed.
 
 We also exploits the compass sensor to record the track orientation of the user. With a pedometer and moving direction, we can track the user at a rough range. As is mentioned in [16], this kind of tracker has an error of 5\% $\sim$ 15\% in direction and 3\% $\sim$ 5\% in pedometer. So we need to introduce a remind mechanism to inform the user using visible light positioning system to erase the accumulated error. Based on the historical dataset, users are recommended to take a picture and carry out a visible light positioning to make sure the deviation within an acceptable range set by the user.
 \begin{figure}
 	\footnotesize
-	\stackunder[5pt]{\includegraphics[width=1.0\columnwidth]{../img.origin/fig12.png}}{Fig.12 Walking stages and acceleration pattern.}%
+	\stackunder[5pt]{\includegraphics[width=1.0\columnwidth]{../img.origin/fig12.pdf}}{Fig.12 Walking stages and acceleration pattern.}%
 \end{figure}
 
 \section{\textbf{Performance and Evaluation}}
@@ -854,16 +854,45 @@ We also exploits the compass sensor to record the track orientation of the user.
 %frequency
 %smartphone camera parameter 
 
-We deploy our experiment motherboard in a grid divided $10m \times 10m$ office room, and the board is a $1m \times 1m$ square. We performed the experiment to measure the accuracy quota under different imaging \textbf{distance}, \textbf{angle}, \textbf{brightness levels}, and \textbf{encoding frequencies}. The main benchmark is accuracy.
+We deploy our experiment motherboard in a grid divided $10m \times 10m$ office room, and the board is a $1m \times 1m$ square shaped board. We performed the experiment to measure the accuracy quota under different imaging \textbf{distance}, \textbf{angle}, \textbf{brightness levels}, and \textbf{encoding frequencies}. The main benchmark is accuracy. The power of the LEDs are 20W with a 24V voltage on green and blue LEDs and 20V on red LED since they works at distinct voltages. We put the RGBLED in a cylindrical lampshade and covered a piece of frosted glass to make the light source scattering uniformly. The RGBLED light source is a $2.8cm^2$ square shaped LED board, and we placed five RGBLEDs on a board, one at the center, and four at the corners. We verify the location error by the absolute value of the visible light positioning system calculation results and the measurements with a band tape which can accurate to the centimeter. 
+
 \subsection{\textbf{Realistic Positioning Range}}
+We set up the test board on the corner of office, vertical to the ground, and perform the experiment at different distance beyond the board with a $0^{\circ}$ imaging orientation. For a distance between user and board at 10m, the decoding program starts to report exceptions that it failed to discover light beacons on the image, so under the specific hardware environment, the effective application distance is 10m.
+
+We perform 25 tests independently for each distance of 2m, 4m, 6m and 8m, and the CDF chart of these tests is shown as fig.13(a). Obviously distance makes different accuracy results and the closer the user taking an image, the better accuracy he/she gets. At a 2m distance which is usually larger than the ceiling height minus human height, this system can reach an accuracy within 20cm for 80\% of all cases. And even in a range of 8m, user can locate him/herself within half a meter, which is meaningful in most indoor applications. 
+
+\begin{figure}
+	\footnotesize
+	\stackunder[5pt]{\includegraphics[width=1.0\columnwidth]{../img.origin/fig13_distance.pdf}}{Fig.13(a) Distance error.}%
+\end{figure}
 
 \subsection{\textbf{Maxim Imaging Angle}}
+In this evaluation, we perform the test at a distance of 2 meters, and taking images at different angles to verify how angular affects accuracy. The board is set vertical to the ground. We find that for an imaging angle larger than $0^{\circ}$, the decoding program starts to report exceptions that it failed to discover light beacons on the image, so under the specific hardware environment, the effective angle to take the positioning work is within $60^{\circ}$
+
+We perform 25 tests independently for each imaging angle at  $0^{\circ}$,  $30^{\circ}$,  $45^{\circ}$ and  $60^{\circ}$, and the CDF chart of these tests is shown as fig.13(b). From the chart we can identify that at small imaging degrees, the positioning system worked as well as there exists no angle difference, and this system can reach an accuracy within 20cm for 80\% of all cases. However, when angle grows larger, it also affects the accuracy. For a $45^{\circ}$ circumstance the error grows to 33cm for 80\% cases, and at $60^{\circ}$, the error is nearly 45cm, with several exceptions that result in nothing not counted. This is because with the growth of angle, the RGBLED spots on the image distorted and this caused the image processing pipeline exception.
+
+\begin{figure}
+	\footnotesize
+	\stackunder[5pt]{\includegraphics[width=1.0\columnwidth]{../img.origin/fig13_angle.pdf}}{Fig.13(b) Angle error.}%
+\end{figure}
 
 \subsection{\textbf{Environment Brightness Effects}}
+We perform this experiment under different ambient brightnesses at 2m and $0^{\circ}$. In order to control the brightness, we perform the experiment at night and fabricate 3 level brightness with no light(dark), slight light with lamp on ceiling bright and high lightness with experimenting at daytime, and the CDF chart of these tests is shown as fig.13(c). We have to admit that at daytime with heavy environmental noise brightness, the positioning system can't decode the polluted RGB light signal well which results in failure at taking a decodable rolling shutter image using normal smartphone cameras such as Lumia 1020 . However for normal indoor environment, the visible light positioning system itself works as the light source, and it suffers little influence from weak nearby lamp light. 
+
+\begin{figure}
+	\footnotesize
+	\stackunder[5pt]{\includegraphics[width=1.0\columnwidth]{../img.origin/fig13_light.pdf}}{Fig.13(c) Lamp lighting's influence.}%
+\end{figure}
 
 \subsection{\textbf{Encoding Frequency Effects}}
+In theory, the encoded frequency of light source can be bounded within $\frac{f}{2}$ with $f$ as the largest shutter frequency(reciprocal of exposure time, for Lumia 1020 this is limited within 1/16666 second) for the smartphone camera. In the experiments before we worked at 4000Hz, and in this section we adopt same encoding(8 bit length) and evaluate how encoding frequency influences accuracy. We set the imaging positioning 2m from the light source with $0^{\circ}$ direction and without lamp light besides. We performs 2000Hz, 4000Hz, 6000Hz and 8000Hz experiment, and we see they worked as well in the cdf chart of fig13(d). This can confirm that within decodable frequency boundary, we can adopt frequency as a dimension to enlarge the coding space.
 
 
+
+\begin{figure}
+	\footnotesize
+	\stackunder[5pt]{\includegraphics[width=1.0\columnwidth]{../img.origin/fig13_frequency.pdf}}{Fig.13(d)CDF at different encoding frequency.}%
+\end{figure}
 
 
 % conference papers do not normally have an appendix
