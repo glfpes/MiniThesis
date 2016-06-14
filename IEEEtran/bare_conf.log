@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.5.16)  25 MAY 2016 15:58
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.4)  12 JUN 2016 11:41
 entering extended mode
 **bare_conf.tex
-(C:\Users\yangguang_sx\Github\MiniThesis\IEEEtran\bare_conf.tex
+(C:\Users\glfpes\Documents\GitHub\MiniThesis\IEEEtran\bare_conf.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for loaded.
-(C:\Users\yangguang_sx\Github\MiniThesis\IEEEtran\IEEEtran.cls
+(C:\Users\glfpes\Documents\GitHub\MiniThesis\IEEEtran\IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
@@ -17,7 +17,7 @@ Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 \@IEEEtrantmptoksA=\toks14
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 503.
 
-(D:\develop\CTEX\MiKTeX\tex\latex\psnfss\ot1ptm.fd
+(C:\develop\CTEX\MiKTeX\tex\latex\psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 -- Using 8.5in x 11in (letter) paper.
@@ -111,20 +111,20 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \IEEEPARstartletwidth=\dimen125
 \c@IEEEbiography=\count93
 \@IEEEtranrubishbin=\box27
-) (C:\Users\yangguang_sx\Github\MiniThesis\IEEEtran\stackengine.sty
+) (C:\Users\glfpes\Documents\GitHub\MiniThesis\IEEEtran\stackengine.sty
 Package: stackengine 2014/01/06 v3.24\ Stacking text and objects in convenient 
 ways
 
-(D:\develop\CTEX\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+(C:\develop\CTEX\MiKTeX\tex\latex\etoolbox\etoolbox.sty
 Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
 
-(D:\develop\CTEX\MiKTeX\tex\latex\misc\etex.sty
+(C:\develop\CTEX\MiKTeX\tex\latex\misc\etex.sty
 Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
 \et@xins=\count94
 )
 \etb@tempcnta=\count95
 )
-(D:\develop\CTEX\MiKTeX\tex\latex\tools\calc.sty
+(C:\develop\CTEX\MiKTeX\tex\latex\tools\calc.sty
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count96
 \calc@Bcount=\count97
@@ -148,31 +148,31 @@ LaTeX Info: Redefining \addtolength on input line 77.
 \@centerbox=\box31
 \c@ROWcellindex@=\count100
 )
-(D:\develop\CTEX\MiKTeX\tex\latex\graphics\graphicx.sty
+(C:\develop\CTEX\MiKTeX\tex\latex\graphics\graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(D:\develop\CTEX\MiKTeX\tex\latex\graphics\keyval.sty
+(C:\develop\CTEX\MiKTeX\tex\latex\graphics\keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-(D:\develop\CTEX\MiKTeX\tex\latex\graphics\graphics.sty
+(C:\develop\CTEX\MiKTeX\tex\latex\graphics\graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(D:\develop\CTEX\MiKTeX\tex\latex\graphics\trig.sty
+(C:\develop\CTEX\MiKTeX\tex\latex\graphics\trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(D:\develop\CTEX\MiKTeX\tex\latex\00miktex\graphics.cfg
+(C:\develop\CTEX\MiKTeX\tex\latex\00miktex\graphics.cfg
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(D:\develop\CTEX\MiKTeX\tex\latex\pdftex-def\pdftex.def
+(C:\develop\CTEX\MiKTeX\tex\latex\pdftex-def\pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(D:\develop\CTEX\MiKTeX\tex\generic\oberdiek\infwarerr.sty
+(C:\develop\CTEX\MiKTeX\tex\generic\oberdiek\infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
 )
-(D:\develop\CTEX\MiKTeX\tex\generic\oberdiek\ltxcmds.sty
+(C:\develop\CTEX\MiKTeX\tex\generic\oberdiek\ltxcmds.sty
 Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count101
@@ -180,7 +180,7 @@ Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen128
 \Gin@req@width=\dimen129
 )
-(D:\develop\CTEX\MiKTeX\tex\latex\subfigure\subfigure.sty
+(C:\develop\CTEX\MiKTeX\tex\latex\subfigure\subfigure.sty
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip51
 \subfigcapskip=\skip52
@@ -196,28 +196,28 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-(D:\develop\CTEX\MiKTeX\tex\latex\subfigure\subfigure.cfg)
+(C:\develop\CTEX\MiKTeX\tex\latex\subfigure\subfigure.cfg)
 \subfig@top=\skip55
 \subfig@bottom=\skip56
 )
-(D:\develop\CTEX\MiKTeX\tex\latex\ams\math\amsmath.sty
+(C:\develop\CTEX\MiKTeX\tex\latex\ams\math\amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip57
 
 For additional information on amsmath, use the `?' option.
-(D:\develop\CTEX\MiKTeX\tex\latex\ams\math\amstext.sty
+(C:\develop\CTEX\MiKTeX\tex\latex\ams\math\amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(D:\develop\CTEX\MiKTeX\tex\latex\ams\math\amsgen.sty
+(C:\develop\CTEX\MiKTeX\tex\latex\ams\math\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks16
 \ex@=\dimen132
 ))
-(D:\develop\CTEX\MiKTeX\tex\latex\ams\math\amsbsy.sty
+(C:\develop\CTEX\MiKTeX\tex\latex\ams\math\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen133
 )
-(D:\develop\CTEX\MiKTeX\tex\latex\ams\math\amsopn.sty
+(C:\develop\CTEX\MiKTeX\tex\latex\ams\math\amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count106
@@ -258,23 +258,23 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
-(D:\develop\CTEX\MiKTeX\tex\latex\amsfonts\amssymb.sty
+(C:\develop\CTEX\MiKTeX\tex\latex\amsfonts\amssymb.sty
 Package: amssymb 2009/06/22 v3.00
 
-(D:\develop\CTEX\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+(C:\develop\CTEX\MiKTeX\tex\latex\amsfonts\amsfonts.sty
 Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 ))
-(D:\develop\CTEX\MiKTeX\tex\latex\hyperref\hyperref.sty
+(C:\develop\CTEX\MiKTeX\tex\latex\hyperref\hyperref.sty
 Package: hyperref 2012/02/06 v6.82o Hypertext links for LaTeX
 
-(D:\develop\CTEX\MiKTeX\tex\generic\oberdiek\hobsub-hyperref.sty
+(C:\develop\CTEX\MiKTeX\tex\generic\oberdiek\hobsub-hyperref.sty
 Package: hobsub-hyperref 2011/04/23 v1.4 Bundle oberdiek, subset hyperref (HO)
 
-(D:\develop\CTEX\MiKTeX\tex\generic\oberdiek\hobsub-generic.sty
+(C:\develop\CTEX\MiKTeX\tex\generic\oberdiek\hobsub-generic.sty
 Package: hobsub-generic 2011/04/23 v1.4 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2011/04/23 v1.4 Subsetting bundle oberdiek (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -312,22 +312,22 @@ Package: atbegshi 2011/01/30 v1.15 At begin shipout hook (HO)
 Package: refcount 2010/12/01 v3.2 Data extraction from references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options of hyperref/bookmark (HO)
 )
-(D:\develop\CTEX\MiKTeX\tex\generic\ifxetex\ifxetex.sty
+(C:\develop\CTEX\MiKTeX\tex\generic\ifxetex\ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(D:\develop\CTEX\MiKTeX\tex\latex\oberdiek\kvoptions.sty
+(C:\develop\CTEX\MiKTeX\tex\latex\oberdiek\kvoptions.sty
 Package: kvoptions 2010/12/23 v3.10 Keyval support for LaTeX options (HO)
 )
 \@linkdim=\dimen141
 \Hy@linkcounter=\count118
 \Hy@pagecounter=\count119
 
-(D:\develop\CTEX\MiKTeX\tex\latex\hyperref\pd1enc.def
+(C:\develop\CTEX\MiKTeX\tex\latex\hyperref\pd1enc.def
 File: pd1enc.def 2012/02/06 v6.82o Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count120
 
-(D:\develop\CTEX\MiKTeX\tex\latex\00miktex\hyperref.cfg
+(C:\develop\CTEX\MiKTeX\tex\latex\00miktex\hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 3925
@@ -341,7 +341,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4284.
 \c@Hy@tempcnt=\count121
 
-(D:\develop\CTEX\MiKTeX\tex\latex\ltxmisc\url.sty
+(C:\develop\CTEX\MiKTeX\tex\latex\ltxmisc\url.sty
 \Urlmuskip=\muskip11
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
@@ -365,19 +365,19 @@ LaTeX Info: Redefining \pageref on input line 5831.
 
 Package hyperref Message: Driver: hpdftex.
 
-(D:\develop\CTEX\MiKTeX\tex\latex\hyperref\hpdftex.def
+(C:\develop\CTEX\MiKTeX\tex\latex\hyperref\hpdftex.def
 File: hpdftex.def 2012/02/06 v6.82o Hyperref driver for pdfTeX
 \Fld@listcount=\count126
 \c@bookmark@seq@number=\count127
 
-(D:\develop\CTEX\MiKTeX\tex\latex\oberdiek\rerunfilecheck.sty
+(C:\develop\CTEX\MiKTeX\tex\latex\oberdiek\rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip60
 )
-(C:\Users\yangguang_sx\Github\MiniThesis\IEEEtran\bare_conf.aux)
+(C:\Users\glfpes\Documents\GitHub\MiniThesis\IEEEtran\bare_conf.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 318.
 LaTeX Font Info:    ... okay on input line 318.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 318.
@@ -394,7 +394,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 318.
 LaTeX Font Info:    ... okay on input line 318.
 
 -- Lines per column: 56 (exact).
-(D:\develop\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii
+(C:\develop\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count128
 \scratchdimen=\dimen144
@@ -410,10 +410,10 @@ LaTeX Font Info:    ... okay on input line 318.
 )
 \AtBeginShipoutBox=\box35
 Package hyperref Info: Link coloring OFF on input line 318.
- (D:\develop\CTEX\MiKTeX\tex\latex\hyperref\nameref.sty
+ (C:\develop\CTEX\MiKTeX\tex\latex\hyperref\nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
-(D:\develop\CTEX\MiKTeX\tex\generic\oberdiek\gettitlestring.sty
+(C:\develop\CTEX\MiKTeX\tex\generic\oberdiek\gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count134
@@ -422,12 +422,12 @@ LaTeX Info: Redefining \ref on input line 318.
 LaTeX Info: Redefining \pageref on input line 318.
 LaTeX Info: Redefining \nameref on input line 318.
 
-(C:\Users\yangguang_sx\Github\MiniThesis\IEEEtran\bare_conf.out)
-(C:\Users\yangguang_sx\Github\MiniThesis\IEEEtran\bare_conf.out)
+(C:\Users\glfpes\Documents\GitHub\MiniThesis\IEEEtran\bare_conf.out)
+(C:\Users\glfpes\Documents\GitHub\MiniThesis\IEEEtran\bare_conf.out)
 \@outlinefile=\write3
 LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 511.
- [1{D:/develop/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}}
+ [1{C:/develop/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}}
 
 
 ]
@@ -436,12 +436,12 @@ Underfull \hbox (badness 1552) in paragraph at lines 521--522
 al
  []
 
-<../img.origin/fig1.pdf, id=88, 554.91214pt x 121.59126pt>
+<../img.origin/fig1.pdf, id=88, 562.9509pt x 132.79814pt>
 File: ../img.origin/fig1.pdf Graphic file (type pdf)
 
 <use ../img.origin/fig1.pdf>
 Package pdftex.def Info: ../img.origin/fig1.pdf used on input line 525.
-(pdftex.def)             Requested size: 252.94499pt x 55.42429pt.
+(pdftex.def)             Requested size: 252.94499pt x 59.66943pt.
 
 Overfull \hbox (0.94499pt too wide) in paragraph at lines 525--526
  [][] 
@@ -451,12 +451,12 @@ Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
 LaTeX Font Info:    Try loading font information for U+msa on input line 537.
-(D:\develop\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd
+(C:\develop\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 537.
 
-(D:\develop\CTEX\MiKTeX\tex\latex\amsfonts\umsb.fd
+(C:\develop\CTEX\MiKTeX\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
 Missing character: There is no ‚ in font ptmr7t!
@@ -474,21 +474,20 @@ Missing character: There is no ù in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
- [2 <C:/Users/yangguang_sx/Github/MiniThesis/img.origin/fig1.pdf, page is rotat
-ed 90 degrees>]
-<../img.origin/fig2.pdf, id=112, 534.02846pt x 561.39154pt>
+ [2 <C:/Users/glfpes/Documents/GitHub/MiniThesis/img.origin/fig1.pdf>]
+<../img.origin/fig2.pdf, id=107, 534.54785pt x 562.3208pt>
 File: ../img.origin/fig2.pdf Graphic file (type pdf)
 
 <use ../img.origin/fig2.pdf>
 Package pdftex.def Info: ../img.origin/fig2.pdf used on input line 568.
-(pdftex.def)             Requested size: 252.94499pt x 265.90993pt.
+(pdftex.def)             Requested size: 252.94499pt x 266.09268pt.
 
 Overfull \hbox (0.94499pt too wide) in paragraph at lines 568--569
  [][] 
  []
 
-[3 <C:/Users/yangguang_sx/Github/MiniThesis/img.origin/fig2.pdf, page is rotate
-d 90 degrees>] <../img.origin/fig3.jpg, id=132, 421.575pt x 316.18124pt>
+[3 <C:/Users/glfpes/Documents/GitHub/MiniThesis/img.origin/fig2.pdf>]
+<../img.origin/fig3.jpg, id=122, 421.575pt x 316.18124pt>
 File: ../img.origin/fig3.jpg Graphic file (type jpg)
 
 <use ../img.origin/fig3.jpg>
@@ -499,7 +498,7 @@ Overfull \hbox (0.94499pt too wide) in paragraph at lines 591--592
  [][] 
  []
 
-<../img.origin/fig4.png, id=133, 717.43031pt x 409.53pt>
+<../img.origin/fig4.png, id=123, 717.43031pt x 409.53pt>
 File: ../img.origin/fig4.png Graphic file (type png)
 
 <use ../img.origin/fig4.png>
@@ -510,27 +509,27 @@ Overfull \hbox (0.94499pt too wide) in paragraph at lines 608--609
  [][] 
  []
 
-[4 <C:/Users/yangguang_sx/Github/MiniThesis/img.origin/fig3.jpg> <C:/Users/yang
-guang_sx/Github/MiniThesis/img.origin/fig4.png>]
+[4 <C:/Users/glfpes/Documents/GitHub/MiniThesis/img.origin/fig3.jpg> <C:/Users/
+glfpes/Documents/GitHub/MiniThesis/img.origin/fig4.png>]
 Overfull \hbox (1.83781pt too wide) in paragraph at lines 631--631
 [] 
  []
 
-[5] <../img.origin/fig5_a.png, id=158, 416.13533pt x 333.29224pt>
+[5] <../img.origin/fig5_a.png, id=148, 416.13533pt x 333.29224pt>
 File: ../img.origin/fig5_a.png Graphic file (type png)
 
 <use ../img.origin/fig5_a.png>
 Package pdftex.def Info: ../img.origin/fig5_a.png used on input line 698.
 (pdftex.def)             Requested size: 100.79846pt x 80.72917pt.
 
-<../img.origin/fig5_b.png, id=159, 630.85687pt x 399.74344pt>
+<../img.origin/fig5_b.png, id=149, 630.85687pt x 399.74344pt>
 File: ../img.origin/fig5_b.png Graphic file (type png)
 
 <use ../img.origin/fig5_b.png>
 Package pdftex.def Info: ../img.origin/fig5_b.png used on input line 702.
 (pdftex.def)             Requested size: 100.79846pt x 63.86876pt.
 
-<../img.origin/fig6.pdf, id=160, 345.46767pt x 51.41208pt>
+<../img.origin/fig6.pdf, id=150, 345.46767pt x 51.41208pt>
 File: ../img.origin/fig6.pdf Graphic file (type pdf)
 
 <use ../img.origin/fig6.pdf>
@@ -541,63 +540,63 @@ Overfull \hbox (0.94499pt too wide) in paragraph at lines 716--717
  [][] 
  []
 
-<../img.origin/fig7/1.jpg, id=161, 271.998pt x 361.0215pt>
+<../img.origin/fig7/1.jpg, id=151, 271.998pt x 361.0215pt>
 File: ../img.origin/fig7/1.jpg Graphic file (type jpg)
 
 <use ../img.origin/fig7/1.jpg>
 Package pdftex.def Info: ../img.origin/fig7/1.jpg used on input line 731.
 (pdftex.def)             Requested size: 63.0pt x 83.61711pt.
 
-<../img.origin/fig7/2.jpg, id=162, 271.998pt x 361.0215pt>
+<../img.origin/fig7/2.jpg, id=152, 271.998pt x 361.0215pt>
 File: ../img.origin/fig7/2.jpg Graphic file (type jpg)
 
 <use ../img.origin/fig7/2.jpg>
 Package pdftex.def Info: ../img.origin/fig7/2.jpg used on input line 735.
 (pdftex.def)             Requested size: 63.0pt x 83.61711pt.
 
-<../img.origin/fig7/3.jpg, id=163, 271.998pt x 361.0215pt>
+<../img.origin/fig7/3.jpg, id=153, 271.998pt x 361.0215pt>
 File: ../img.origin/fig7/3.jpg Graphic file (type jpg)
 
 <use ../img.origin/fig7/3.jpg>
 Package pdftex.def Info: ../img.origin/fig7/3.jpg used on input line 739.
 (pdftex.def)             Requested size: 63.0pt x 83.61711pt.
 
-<../img.origin/fig7/4.jpg, id=164, 271.998pt x 361.0215pt>
+<../img.origin/fig7/4.jpg, id=154, 271.998pt x 361.0215pt>
 File: ../img.origin/fig7/4.jpg Graphic file (type jpg)
 
 <use ../img.origin/fig7/4.jpg>
 Package pdftex.def Info: ../img.origin/fig7/4.jpg used on input line 743.
 (pdftex.def)             Requested size: 63.0pt x 83.61711pt.
 
-<../img.origin/fig7/5.jpg, id=165, 271.998pt x 361.0215pt>
+<../img.origin/fig7/5.jpg, id=155, 271.998pt x 361.0215pt>
 File: ../img.origin/fig7/5.jpg Graphic file (type jpg)
 
 <use ../img.origin/fig7/5.jpg>
 Package pdftex.def Info: ../img.origin/fig7/5.jpg used on input line 747.
 (pdftex.def)             Requested size: 63.0pt x 83.61711pt.
 
-<../img.origin/fig7/6.jpg, id=166, 271.998pt x 361.0215pt>
+<../img.origin/fig7/6.jpg, id=156, 271.998pt x 361.0215pt>
 File: ../img.origin/fig7/6.jpg Graphic file (type jpg)
 
 <use ../img.origin/fig7/6.jpg>
 Package pdftex.def Info: ../img.origin/fig7/6.jpg used on input line 751.
 (pdftex.def)             Requested size: 63.0pt x 83.61711pt.
 
-<../img.origin/fig8/1.jpg, id=167, 124.5015pt x 124.5015pt>
+<../img.origin/fig8/1.jpg, id=157, 124.5015pt x 124.5015pt>
 File: ../img.origin/fig8/1.jpg Graphic file (type jpg)
 
 <use ../img.origin/fig8/1.jpg>
 Package pdftex.def Info: ../img.origin/fig8/1.jpg used on input line 767.
 (pdftex.def)             Requested size: 63.0pt x 62.99908pt.
 
-<../img.origin/fig8/2.jpg, id=168, 124.5015pt x 124.5015pt>
+<../img.origin/fig8/2.jpg, id=158, 124.5015pt x 124.5015pt>
 File: ../img.origin/fig8/2.jpg Graphic file (type jpg)
 
 <use ../img.origin/fig8/2.jpg>
 Package pdftex.def Info: ../img.origin/fig8/2.jpg used on input line 771.
 (pdftex.def)             Requested size: 63.0pt x 62.99908pt.
 
-<../img.origin/fig8/3.jpg, id=169, 124.5015pt x 124.5015pt>
+<../img.origin/fig8/3.jpg, id=159, 124.5015pt x 124.5015pt>
 File: ../img.origin/fig8/3.jpg Graphic file (type jpg)
 
 <use ../img.origin/fig8/3.jpg>
@@ -611,29 +610,30 @@ Overfull \hbox (1.87746pt too wide) in paragraph at lines 790--790
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6 <C:/Users/yangguang_sx/Github/MiniThesis/img.origin/fig5_a.png> <C:/Users/y
-angguang_sx/Github/MiniThesis/img.origin/fig5_b.png> <C:/Users/yangguang_sx/Git
-hub/MiniThesis/img.origin/fig6.pdf, page is rotated 90 degrees> <C:/Users/yangg
-uang_sx/Github/MiniThesis/img.origin/fig7/1.jpg> <C:/Users/yangguang_sx/Github/
-MiniThesis/img.origin/fig7/2.jpg> <C:/Users/yangguang_sx/Github/MiniThesis/img.
-origin/fig7/3.jpg> <C:/Users/yangguang_sx/Github/MiniThesis/img.origin/fig7/4.j
-pg> <C:/Users/yangguang_sx/Github/MiniThesis/img.origin/fig7/5.jpg> <C:/Users/y
-angguang_sx/Github/MiniThesis/img.origin/fig7/6.jpg>]
-<../img.origin/fig9/1.jpg, id=215, 347.04657pt x 347.79938pt>
+ [6 <C:/Users/glfpes/Documents/GitHub/MiniThesis/img.origin/fig5_a.png> <C:/Use
+rs/glfpes/Documents/GitHub/MiniThesis/img.origin/fig5_b.png> <C:/Users/glfpes/D
+ocuments/GitHub/MiniThesis/img.origin/fig6.pdf, page is rotated 90 degrees> <C:
+/Users/glfpes/Documents/GitHub/MiniThesis/img.origin/fig7/1.jpg> <C:/Users/glfp
+es/Documents/GitHub/MiniThesis/img.origin/fig7/2.jpg> <C:/Users/glfpes/Document
+s/GitHub/MiniThesis/img.origin/fig7/3.jpg> <C:/Users/glfpes/Documents/GitHub/Mi
+niThesis/img.origin/fig7/4.jpg> <C:/Users/glfpes/Documents/GitHub/MiniThesis/im
+g.origin/fig7/5.jpg> <C:/Users/glfpes/Documents/GitHub/MiniThesis/img.origin/fi
+g7/6.jpg>]
+<../img.origin/fig9/1.jpg, id=205, 347.04657pt x 347.79938pt>
 File: ../img.origin/fig9/1.jpg Graphic file (type jpg)
 
 <use ../img.origin/fig9/1.jpg>
 Package pdftex.def Info: ../img.origin/fig9/1.jpg used on input line 816.
 (pdftex.def)             Requested size: 100.79846pt x 101.01843pt.
 
-<../img.origin/fig9/2.jpg, id=216, 347.04657pt x 301.125pt>
+<../img.origin/fig9/2.jpg, id=206, 347.04657pt x 301.125pt>
 File: ../img.origin/fig9/2.jpg Graphic file (type jpg)
 
 <use ../img.origin/fig9/2.jpg>
 Package pdftex.def Info: ../img.origin/fig9/2.jpg used on input line 820.
 (pdftex.def)             Requested size: 100.79846pt x 87.46185pt.
 
-<../img.origin/fig10.jpg, id=217, 271.998pt x 361.0215pt>
+<../img.origin/fig10.jpg, id=207, 271.998pt x 361.0215pt>
 File: ../img.origin/fig10.jpg Graphic file (type jpg)
 
 <use ../img.origin/fig10.jpg>
@@ -644,7 +644,7 @@ File: ../img.origin/fig10.jpg Graphic file (type jpg)
 Package pdftex.def Info: ../img.origin/fig10.jpg used on input line 830.
 (pdftex.def)             Requested size: 100.79846pt x 133.7907pt.
 
-<../img.origin/fig11.png, id=218, 381.67593pt x 530.73282pt>
+<../img.origin/fig11.png, id=208, 381.67593pt x 530.73282pt>
 File: ../img.origin/fig11.png Graphic file (type png)
 
 <use ../img.origin/fig11.png>
@@ -655,7 +655,7 @@ File: ../img.origin/fig11.png Graphic file (type png)
 Package pdftex.def Info: ../img.origin/fig11.png used on input line 832.
 (pdftex.def)             Requested size: 100.79846pt x 140.15762pt.
 
-<../img.origin/fig12.pdf, id=219, 581.17125pt x 205.01593pt>
+<../img.origin/fig12.pdf, id=209, 581.17125pt x 205.01593pt>
 File: ../img.origin/fig12.pdf Graphic file (type pdf)
 
 <use ../img.origin/fig12.pdf>
@@ -665,13 +665,14 @@ File: ../img.origin/fig12.pdf Graphic file (type pdf)
  <use ../img.origin/fig12.pdf>
 Package pdftex.def Info: ../img.origin/fig12.pdf used on input line 847.
 (pdftex.def)             Requested size: 252.0pt x 88.89653pt.
- [7 <C:/Users/yangguang_sx/Github/MiniThesis/img.origin/fig8/1.jpg> <C:/Users/y
-angguang_sx/Github/MiniThesis/img.origin/fig8/2.jpg> <C:/Users/yangguang_sx/Git
-hub/MiniThesis/img.origin/fig8/3.jpg> <C:/Users/yangguang_sx/Github/MiniThesis/
-img.origin/fig9/1.jpg> <C:/Users/yangguang_sx/Github/MiniThesis/img.origin/fig9
-/2.jpg> <C:/Users/yangguang_sx/Github/MiniThesis/img.origin/fig10.jpg> <C:/User
-s/yangguang_sx/Github/MiniThesis/img.origin/fig11.png>]
-<../img.origin/fig13_distance.pdf, id=236, 387.30898pt x 306.44287pt>
+ [7 <C:/Users/glfpes/Documents/GitHub/MiniThesis/img.origin/fig8/1.jpg> <C:/Use
+rs/glfpes/Documents/GitHub/MiniThesis/img.origin/fig8/2.jpg> <C:/Users/glfpes/D
+ocuments/GitHub/MiniThesis/img.origin/fig8/3.jpg> <C:/Users/glfpes/Documents/Gi
+tHub/MiniThesis/img.origin/fig9/1.jpg> <C:/Users/glfpes/Documents/GitHub/MiniTh
+esis/img.origin/fig9/2.jpg> <C:/Users/glfpes/Documents/GitHub/MiniThesis/img.or
+igin/fig10.jpg> <C:/Users/glfpes/Documents/GitHub/MiniThesis/img.origin/fig11.p
+ng>]
+<../img.origin/fig13_distance.pdf, id=226, 387.30898pt x 306.44287pt>
 File: ../img.origin/fig13_distance.pdf Graphic file (type pdf)
 
 <use ../img.origin/fig13_distance.pdf>
@@ -684,7 +685,7 @@ Package pdftex.def Info: ../img.origin/fig13_distance.pdf used on input line 86
 6.
 (pdftex.def)             Requested size: 252.0pt x 199.38655pt.
 
-<../img.origin/fig13_angle.pdf, id=237, 387.30898pt x 306.44287pt>
+<../img.origin/fig13_angle.pdf, id=227, 387.30898pt x 306.44287pt>
 File: ../img.origin/fig13_angle.pdf Graphic file (type pdf)
 
 <use ../img.origin/fig13_angle.pdf>
@@ -695,7 +696,7 @@ File: ../img.origin/fig13_angle.pdf Graphic file (type pdf)
 Package pdftex.def Info: ../img.origin/fig13_angle.pdf used on input line 876.
 (pdftex.def)             Requested size: 252.0pt x 199.38655pt.
 
-<../img.origin/fig13_light.pdf, id=238, 387.30898pt x 306.44287pt>
+<../img.origin/fig13_light.pdf, id=228, 387.30898pt x 306.44287pt>
 File: ../img.origin/fig13_light.pdf Graphic file (type pdf)
 
 <use ../img.origin/fig13_light.pdf>
@@ -706,9 +707,9 @@ File: ../img.origin/fig13_light.pdf Graphic file (type pdf)
 Package pdftex.def Info: ../img.origin/fig13_light.pdf used on input line 884.
 (pdftex.def)             Requested size: 252.0pt x 199.38655pt.
 
-[8 <C:/Users/yangguang_sx/Github/MiniThesis/img.origin/fig12.pdf> <C:/Users/yan
-gguang_sx/Github/MiniThesis/img.origin/fig13_distance.pdf>]
-<../img.origin/fig13_frequency.pdf, id=290, 387.30898pt x 306.44287pt>
+[8 <C:/Users/glfpes/Documents/GitHub/MiniThesis/img.origin/fig12.pdf> <C:/Users
+/glfpes/Documents/GitHub/MiniThesis/img.origin/fig13_distance.pdf>]
+<../img.origin/fig13_frequency.pdf, id=281, 387.30898pt x 306.44287pt>
 File: ../img.origin/fig13_frequency.pdf Graphic file (type pdf)
 
 <use ../img.origin/fig13_frequency.pdf>
@@ -733,9 +734,9 @@ Missing character: There is no ô in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ì in font ptmr7t!
- [9 <C:/Users/yangguang_sx/Github/MiniThesis/img.origin/fig13_angle.pdf> <C:/Us
-ers/yangguang_sx/Github/MiniThesis/img.origin/fig13_light.pdf> <C:/Users/yanggu
-ang_sx/Github/MiniThesis/img.origin/fig13_frequency.pdf>]
+ [9 <C:/Users/glfpes/Documents/GitHub/MiniThesis/img.origin/fig13_angle.pdf> <C
+:/Users/glfpes/Documents/GitHub/MiniThesis/img.origin/fig13_light.pdf> <C:/User
+s/glfpes/Documents/GitHub/MiniThesis/img.origin/fig13_frequency.pdf>]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -752,7 +753,7 @@ Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1006.
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 1006.
- (C:\Users\yangguang_sx\Github\MiniThesis\IEEEtran\bare_conf.aux)
+ (C:\Users\glfpes\Documents\GitHub\MiniThesis\IEEEtran\bare_conf.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1006.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1006.
 
@@ -761,27 +762,27 @@ Package rerunfilecheck Info: File `bare_conf.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  7459 strings out of 495354
- 110703 string characters out of 3183411
+ 110763 string characters out of 3183412
  219343 words of memory out of 3000000
  10446 multiletter control sequences out of 15000+200000
  45713 words of font info for 90 fonts, out of 3000000 for 9000
  17 hyphenation exceptions out of 8191
  30i,21n,29p,2061b,456s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/develop/CTEX/MiKTeX/fonts/enc/dvips/fontname/8r.enc}<D:/develop/CTEX/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/develop/CTEX/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmmi10.pfb><D:/develop/CTEX/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmmi5.pfb><D:/develop/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.
-pfb><D:/develop/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/develo
-p/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/develop/CTEX/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmr7.pfb><D:/develop/CTEX/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb><D:/develop/CTEX/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmsy7.pfb><D:/develop/CTEX/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><D:/develo
-p/CTEX/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><D:/develop/CTEX/MiKTeX/fonts/t
-ype1/urw/times/utmr8a.pfb><D:/develop/CTEX/MiKTeX/fonts/type1/urw/times/utmri8a
+{C:/develop/CTEX/MiKTeX/fonts/enc/dvips/fontname/8r.enc}<C:/develop/CTEX/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/develop/CTEX/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmmi10.pfb><C:/develop/CTEX/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmmi5.pfb><C:/develop/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.
+pfb><C:/develop/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/develo
+p/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/develop/CTEX/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmr7.pfb><C:/develop/CTEX/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb><C:/develop/CTEX/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmsy7.pfb><C:/develop/CTEX/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/develo
+p/CTEX/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/develop/CTEX/MiKTeX/fonts/t
+ype1/urw/times/utmr8a.pfb><C:/develop/CTEX/MiKTeX/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on bare_conf.pdf (10 pages, 1159395 bytes).
+Output written on bare_conf.pdf (10 pages, 1258458 bytes).
 PDF statistics:
- 385 PDF objects out of 1000 (max. 8388607)
+ 377 PDF objects out of 1000 (max. 8388607)
  79 named destinations out of 1000 (max. 500000)
  278 words of extra memory for PDF output out of 10000 (max. 10000000)
 
